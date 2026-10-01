@@ -116,7 +116,13 @@ export default async function OrderSuccessPage({ searchParams }) {
         </div>
       </div>
 
-      <div className="text-center mt-8">
+      <div className="text-center mt-8 flex flex-wrap items-center justify-center gap-3">
+        <Link
+          href={`/order-tracking?order=${order.number}`}
+          className="inline-block bg-[#002147] hover:bg-slate-900 text-white font-semibold px-7 py-3 rounded-xl transition-colors"
+        >
+          Track Order
+        </Link>
         <Link
           href="/"
           className="inline-block bg-[#00a651] hover:bg-emerald-700 text-white font-semibold px-7 py-3 rounded-xl transition-colors"

@@ -419,7 +419,10 @@ export default function CheckoutForm() {
 
             <p className="mt-3 text-xs text-center text-slate-500">
               Order korle apni amader{" "}
-              <Link href="#" className="underline hover:text-[#00a651]">
+              <Link
+                href="/policy#terms"
+                className="underline hover:text-[#00a651]"
+              >
                 Terms & Conditions
               </Link>
               -e sommoti dicchen.

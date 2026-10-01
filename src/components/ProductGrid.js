@@ -1,94 +1,43 @@
-"use client";
-import { useCart } from "@/context/CartContext";
-import { decodeHtml } from "@/lib/html";
-import { useState } from "react";
-import Image from "next/image";
-import Link from "next/link"; // Next.js Link import kora hoyeche
-
-const PLACEHOLDER_IMAGE = "/placeholder.svg";
-
-function ProductCard({ product }) {
-  const initialSrc = product.images?.[0]?.src || PLACEHOLDER_IMAGE;
-  const [imgSrc, setImgSrc] = useState(initialSrc);
-  const isPlaceholder = imgSrc === PLACEHOLDER_IMAGE;
-
-  const price = product.sale_price || product.price || "0";
-  const { addItem } = useCart();
-  const handleAdd = () =>
-    addItem({
-      id: product.id,
-      slug: product.slug,
-      name: decodeHtml(product.name),
-      price: parseFloat(price) || 0,
-      image: product.images?.[0]?.src || PLACEHOLDER_IMAGE,
-    });
-  const productSlug = product.slug || product.id; // slug na thakle id use hobe
-
-  return (
-    <div className="flex flex-col bg-white rounded-xl shadow-sm border border-gray-100 p-4 hover:shadow-md transition-shadow group">
-      {/* Image Link */}
-      <Link
-        href={`/product/${product.slug || product.id}`}
-        className="block relative w-full aspect-square mb-4 bg-slate-100 rounded-lg overflow-hidden"
-      >
-        <Image
-          src={imgSrc}
-          alt={product.name || "Product"}
-          fill
-          sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 20vw"
-          className="object-cover group-hover:scale-105 transition-transform duration-300"
-          unoptimized={isPlaceholder}
-          onError={() => setImgSrc(PLACEHOLDER_IMAGE)}
-        />
-      </Link>
-
-      {/* Title Link */}
-      <Link href={`/product/${productSlug}`}>
-        <h3 className="font-semibold text-slate-800 text-base mb-2 line-clamp-2 hover:text-[#00a651] transition-colors">
-          {product.name}
-        </h3>
-      </Link>
-
-      <div className="flex items-center justify-between mt-auto pt-2">
-        <div className="flex flex-col leading-tight">
-          <span className="text-lg font-bold text-[#00a651]">৳{price}</span>
-          {product.sale_price && product.regular_price && (
-            <span className="text-xs text-gray-400 line-through">
-              ৳{product.regular_price}
-            </span>
-          )}
-        </div>
-        <button
-          onClick={handleAdd}
-          className="bg-[#00a651] text-white px-3 py-1.5 rounded-md text-xs font-semibold hover:bg-emerald-700 transition-colors"
-        >
-          Add to Cart
-        </button>
-      </div>
-    </div>
-  );
-}
+import Link from "next/link";
+import { ArrowRight, PackageSearch } from "lucide-react";
+import ProductCard from "@/components/ProductCard";
 
 export default function ProductGrid({ products = [] }) {
   return (
-    <div className="max-w-[1600px] mx-auto py-6 px-4">
-      <div className="flex justify-between items-center mb-8 border-b pb-4">
-        <h1 className="text-3xl font-bold text-slate-800">
-          IPS HATT <span className="text-[#00a651]">Products</span>
-        </h1>
-        <span className="bg-emerald-100 text-emerald-800 font-semibold px-3 py-1 rounded-full text-sm">
-          Total: {products.length} Products
-        </span>
+    <div>
+      <div className="flex items-end justify-between gap-4 mb-6 md:mb-8 pb-4 border-b border-slate-200">
+        <div>
+          <span className="text-xs font-bold uppercase tracking-[0.18em] text-[#00a651]">
+            Shop
+          </span>
+          <h2 className="mt-1 text-2xl md:text-4xl font-extrabold text-slate-800 leading-tight">
+            Featured <span className="text-[#00a651]">Products</span>
+          </h2>
+        </div>
+
+        <Link
+          href="/shop"
+          className="shrink-0 inline-flex items-center gap-1.5 rounded-full border-2 border-slate-200 hover:border-[#00a651] hover:text-[#00a651] bg-white px-4 py-2 text-sm font-bold text-slate-700 transition-colors group"
+        >
+          View All
+          <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-0.5" />
+        </Link>
       </div>
 
       {products.length === 0 ? (
-        <p className="text-center text-gray-500 py-12">
-          No products found or connection failed.
-        </p>
+        <div className="bg-white rounded-2xl border border-slate-100 py-14 px-6 text-center">
+          <PackageSearch className="w-12 h-12 mx-auto text-slate-400 mb-3" />
+          <p className="font-bold text-slate-800">
+            Ekhon kono product dekhano jachchhe na
+          </p>
+          <p className="text-sm text-slate-500 mt-1">
+            Ektu por abar chesta korun.
+          </p>
+        </div>
       ) : (
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
-          {products.map((product) => (
-            <ProductCard key={product.id} product={product} />
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3 md:gap-5">
+          {products.map((product, i) => (
+            <ProductCard key={product.id} product={product} priority={i < 4} />
           ))}
         </div>
       )}
