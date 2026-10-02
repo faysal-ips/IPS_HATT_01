@@ -4,7 +4,7 @@ import { normalizePhone } from "@/lib/checkout";
 import { decodeHtml } from "@/lib/html";
 
 const NOT_FOUND =
-  "Order paowa jayni. Order number ar phone number thik ache kina dekhun.";
+  "We could not find an order with these details. Please check your order number and mobile number.";
 
 const fail = (error, status = 400) => NextResponse.json({ error }, { status });
 
@@ -37,7 +37,7 @@ function mapStatus(status = "") {
   if (status === "completed")
     return { kind: "progress", step: 4, label: "Delivered" };
   if (/ship|transit|dispatch|courier|delivery/.test(status))
-    return { kind: "progress", step: 3, label: "On the way" };
+    return { kind: "progress", step: 3, label: "On the Way" };
   if (status === "processing")
     return { kind: "progress", step: 2, label: "Processing" };
   // pending, on-hold, onno kono custom status
@@ -75,10 +75,7 @@ export async function POST(req) {
     .split(",")[0]
     .trim();
   if (limited(ip))
-    return fail(
-      "Onek bar chesta kora hoyeche. Ektu por abar chesta korun.",
-      429
-    );
+    return fail("Too many attempts. Please wait a minute and try again.", 429);
 
   let body;
   try {
@@ -90,9 +87,10 @@ export async function POST(req) {
   const orderNo = String(body.order || "").replace(/[^\d]/g, "");
   const phone = normalizePhone(body.phone);
 
-  if (!orderNo || orderNo.length > 12) return fail("Order number likhun.");
+  if (!orderNo || orderNo.length > 12)
+    return fail("Please enter your order number.");
   if (!/^01[3-9]\d{8}$/.test(phone))
-    return fail("Sothik mobile number din (jemon 01712345678).");
+    return fail("Please enter a valid mobile number, for example 01712345678.");
 
   try {
     const { data: order } = await api.get(`orders/${orderNo}`);
@@ -146,7 +144,7 @@ export async function POST(req) {
     if (err?.response?.status === 404) return fail(NOT_FOUND, 404);
     console.error("Track error:", err?.response?.data || err);
     return fail(
-      "Ekhon status dekha jachchhe na. Ektu por abar chesta korun.",
+      "We cannot load the order status right now. Please try again shortly.",
       500
     );
   }

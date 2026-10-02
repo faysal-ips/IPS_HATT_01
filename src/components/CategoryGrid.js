@@ -47,7 +47,9 @@ export default async function CategoryGrid() {
       href: match
         ? `/shop?category=${match.slug}`
         : `/shop?search=${encodeURIComponent(cfg.title)}`,
-      count: match ? `${match.count} Items` : "Browse",
+      count: match
+        ? `${match.count} ${match.count === 1 ? "Item" : "Items"}`
+        : "Browse",
     };
   });
 
@@ -62,7 +64,7 @@ export default async function CategoryGrid() {
           <h2 className="mt-1 text-2xl md:text-4xl font-extrabold text-slate-800 leading-tight">
             Explore <span className="text-[#00a651]">Categories</span>
           </h2>
-          <p className="mt-1.5 text-sm md:text-base text-slate-500 font-medium">
+          <p className="mt-2 text-slate-700 text-base md:text-lg leading-relaxed">
             Find the right energy products for your needs
           </p>
         </div>
@@ -76,7 +78,7 @@ export default async function CategoryGrid() {
         </Link>
       </div>
 
-      {/* Cards */}
+      {/* Cards: centered tile, jate wide screen-e dane faka na thake */}
       <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 md:gap-4">
         {items.map((cat) => {
           const Icon = cat.icon;
@@ -84,34 +86,26 @@ export default async function CategoryGrid() {
             <Link
               key={cat.title}
               href={cat.href}
-              className="group relative isolate overflow-hidden flex flex-col rounded-2xl bg-white border border-slate-200/80 p-4 md:p-5 shadow-sm hover:shadow-xl hover:-translate-y-1 hover:border-[#00a651]/40 transition-all duration-300"
+              className="group relative flex flex-col items-center rounded-2xl bg-gradient-to-b from-white to-slate-50/80 border border-slate-200 px-3 py-6 text-center transition-all duration-300 hover:-translate-y-1 hover:border-[#00a651]/50 hover:shadow-[0_18px_32px_-18px_rgba(0,166,81,0.45)]"
             >
-              {/* Hover-e upore green line baam theke daane tane */}
-              <span className="absolute top-0 left-0 h-1 w-0 group-hover:w-full bg-gradient-to-r from-[#00a651] to-emerald-300 transition-all duration-500" />
+              <span className="flex w-14 h-14 items-center justify-center rounded-2xl bg-emerald-50 text-[#00a651] ring-1 ring-emerald-100 transition-all duration-300 group-hover:bg-[#00a651] group-hover:text-white group-hover:ring-[#00a651] group-hover:shadow-[0_10px_20px_-8px_rgba(0,166,81,0.6)]">
+                <Icon className="w-6 h-6" strokeWidth={1.75} />
+              </span>
 
-              {/* Kone-r boro halka watermark icon */}
-              <Icon
-                aria-hidden="true"
-                className="absolute -right-4 -bottom-4 -z-10 w-24 h-24 md:w-28 md:h-28 text-slate-900 opacity-[0.04] group-hover:opacity-[0.09] group-hover:-rotate-12 group-hover:scale-110 transition-all duration-500"
-              />
-
-              {/* Icon + arrow */}
-              <div className="flex items-start justify-between">
-                <span className="w-12 h-12 md:w-14 md:h-14 rounded-xl bg-gradient-to-br from-emerald-50 to-emerald-100 text-[#00a651] group-hover:from-[#00a651] group-hover:to-emerald-600 group-hover:text-white shadow-inner flex items-center justify-center transition-all duration-300">
-                  <Icon className="w-6 h-6 md:w-7 md:h-7" />
-                </span>
-                <ArrowUpRight className="w-4 h-4 text-slate-300 opacity-0 -translate-x-1 translate-y-1 group-hover:opacity-100 group-hover:translate-x-0 group-hover:translate-y-0 group-hover:text-[#00a651] transition-all duration-300" />
-              </div>
-
-              {/* Title */}
-              <h3 className="mt-4 text-sm md:text-base font-extrabold text-slate-800 group-hover:text-[#00a651] transition-colors leading-snug line-clamp-1">
+              <h3 className="mt-4 text-sm md:text-lg font-semibold text-slate-700 leading-snug transition-colors duration-300 group-hover:text-[#00a651]">
                 {cat.title}
               </h3>
 
-              {/* Count pill */}
-              <span className="mt-2 self-start rounded-full bg-slate-100 group-hover:bg-emerald-50 px-2.5 py-0.5 text-[11px] md:text-xs font-bold text-slate-500 group-hover:text-emerald-700 transition-colors">
-                {cat.count}
-              </span>
+              {/* count + arrow: hover-e count-er jaygay "Shop now" fade hoy */}
+              <div className="relative mt-1 h-5 w-full">
+                <p className="absolute inset-0 text-base font-medium text-slate-600 transition-all duration-300 group-hover:-translate-y-1 group-hover:opacity-0">
+                  {cat.count}
+                </p>
+                <span className="absolute inset-0 inline-flex translate-y-1 items-center justify-center gap-1 text-xs font-bold text-[#00a651] opacity-0 transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100">
+                  Shop now
+                  <ArrowUpRight className="w-3.5 h-3.5" />
+                </span>
+              </div>
             </Link>
           );
         })}

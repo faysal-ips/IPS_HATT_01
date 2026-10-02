@@ -2,11 +2,14 @@ import HeroSlider from "@/components/HeroSlider";
 import CategoryGrid from "@/components/CategoryGrid";
 import ProductGrid from "@/components/ProductGrid";
 import PromoBanner from "@/components/PromoBanner";
-import BrandMarquee from "@/components/BrandMarquee";
 import WhyChoose from "@/components/WhyChoose";
-import ProjectShowcase from "@/components/ProjectShowcase";
+import BackupCalculator from "@/components/BackupCalculator";
+import HomeFAQ from "@/components/HomeFAQ";
+import AboutCTA from "@/components/about/AboutCTA";
 import TrustBadges from "@/components/TrustBadges";
 import { api } from "@/lib/woocommerce";
+import { Section } from "lucide-react";
+import CustomerReviews from "@/components/CustomerReviews";
 
 // Revalidate every 60 seconds (ISR)
 export const revalidate = 60;
@@ -30,7 +33,7 @@ export default async function HomePage() {
   const products = await getProducts();
 
   return (
-    <div className="min-h-screen bg-slate-50/50 space-y-10 pb-12">
+    <div className="min-h-screen bg-slate-50/50 space-y-10 md:space-y-14 pb-12">
       {/* 1. Hero Banner Slider */}
       <section className="pt-4">
         <HeroSlider />
@@ -41,7 +44,7 @@ export default async function HomePage() {
         <CategoryGrid />
       </section>
 
-      {/* 3. Featured Products Grid */}
+      {/* 3. Featured Products */}
       <section className={WRAP}>
         <ProductGrid products={products} />
       </section>
@@ -51,24 +54,31 @@ export default async function HomePage() {
         <PromoBanner />
       </section>
 
-      {/* 5. Official Brand Partners Marquee */}
-      <section className={WRAP}>
-        <BrandMarquee />
-      </section>
-
-      {/* 6. Why Choose IPS HATT */}
+      {/* 5. Why Choose IPS HATT */}
       <section className={WRAP}>
         <WhyChoose />
       </section>
-
-      {/* 7. Engineered for Real Projects */}
+      <section className={`${WRAP} pt-2`}>
+        <CustomerReviews />
+      </section>
+      {/* 6. Backup Power Calculator */}
       <section className={WRAP}>
-        <ProjectShowcase />
+        <BackupCalculator />
       </section>
 
-      {/* 8. Bottom Trust & Security Badges */}
-      <section className={`${WRAP} pt-4`}>
+      {/* 8. Free Consultation CTA */}
+      <section className={WRAP}>
+        <AboutCTA />
+      </section>
+
+      {/* 9. Bottom Trust Badges */}
+      <section className={`${WRAP} pt-2`}>
         <TrustBadges />
+      </section>
+
+      {/* 7. FAQ */}
+      <section className={WRAP}>
+        <HomeFAQ />
       </section>
     </div>
   );

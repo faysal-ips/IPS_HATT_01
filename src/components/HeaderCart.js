@@ -1,8 +1,8 @@
 "use client";
 
 import { ShoppingCart } from "lucide-react";
-import { useCart, formatTaka } from "@/context/CartContext";
 
+import { useCart, formatBDT } from "@/context/CartContext";
 function Badge({ count, className = "" }) {
   return (
     <span
@@ -40,7 +40,7 @@ export default function HeaderCart({ variant = "desktop" }) {
           <ShoppingCart className="w-4 h-4 text-slate-700" />
           <Badge count={totalQty} className="-top-1.5 -right-2" />
         </span>
-        <span>{formatTaka(subtotal)}</span>
+        <span>{formatBDT(subtotal)}</span>
       </button>
     );
   }
@@ -56,7 +56,7 @@ export default function HeaderCart({ variant = "desktop" }) {
         <ShoppingCart className="w-5 h-5 text-slate-700 hover:text-[#00a651] transition-colors" />
         <Badge count={totalQty} className="-top-1.5 -right-2.5" />
       </button>
-      <span>{formatTaka(subtotal)}</span>
+      <span>{formatBDT(subtotal)}</span>
     </>
   );
 }

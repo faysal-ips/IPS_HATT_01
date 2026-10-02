@@ -88,7 +88,7 @@ export default function Footer() {
               <h3 className="text-2xl font-black tracking-wider text-white">
                 IPS <span className="text-[#00a651]">HATT</span>
               </h3>
-              <p className="text-xs md:text-sm text-slate-300 leading-relaxed font-normal">
+              <p className="text-xs md:text-base text-slate-100 leading-relaxed font-normal">
                 Welcome to IPS HATT. We are the leading solar and power
                 equipment provider in Bangladesh. We deliver premium imported
                 Solar Panels, Inverters, Lithium Batteries, and Smart Backup
@@ -125,7 +125,7 @@ export default function Footer() {
               <h4 className="text-sm font-bold uppercase tracking-wider text-[#00a651]">
                 Categories
               </h4>
-              <ul className="space-y-2.5 text-xs md:text-sm font-medium text-slate-300">
+              <ul className="space-y-2.5 text-xs md:text-base font-medium text-slate-200">
                 {CATEGORIES.map((cat) => (
                   <li key={cat.name}>
                     <Link href={cat.href} className={linkCls}>
@@ -141,7 +141,7 @@ export default function Footer() {
               <h4 className="text-sm font-bold uppercase tracking-wider text-[#00a651]">
                 Useful Links
               </h4>
-              <ul className="space-y-2.5 text-xs md:text-sm font-medium text-slate-300">
+              <ul className="space-y-2.5 text-sm md:text-base font-medium text-slate-200">
                 {USEFUL_LINKS.map((link) => (
                   <li key={link.name}>
                     <Link href={link.href} className={linkCls}>
@@ -157,7 +157,7 @@ export default function Footer() {
               <h4 className="text-sm font-bold uppercase tracking-wider text-[#00a651]">
                 Contact Us
               </h4>
-              <div className="space-y-3 text-xs md:text-sm text-slate-300 font-medium">
+              <div className="space-y-3 text-sm md:text-base font-medium text-slate-200">
                 <div className="flex items-start gap-3">
                   <Phone className="w-4 h-4 text-[#00a651] shrink-0 mt-0.5" />
                   <div className="space-y-1">

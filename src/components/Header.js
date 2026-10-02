@@ -510,11 +510,11 @@ export default function Header() {
           <div className="flex items-center gap-4 text-sm font-semibold text-slate-700">
             <Link
               href="#"
-              className="border rounded-full px-4 py-1.5 border-gray-300 hover:border-[#00a651] hover:text-[#00a651] transition-colors text-xs"
+              className="border rounded-full px-4 py-1.5 border-gray-300 hover:border-[#00a651] hover:text-[#00a651] transition-colors text-base"
             >
               Login / Register
             </Link>
-            <div className="flex items-center gap-3 font-bold text-[#00a651] text-sm">
+            <div className="flex items-center gap-3 font-bold text-[#00a651] text-base">
               <span className="relative cursor-pointer">
                 <Heart className="w-5 h-5 text-slate-700 hover:text-[#00a651] transition-colors" />
                 <span className="absolute -top-1.5 -right-2 bg-[#00a651] text-white text-[9px] w-4 h-4 rounded-full flex items-center justify-center">
@@ -541,7 +541,7 @@ export default function Header() {
             )}
           </div>
 
-          <div className="flex justify-center items-center gap-8 text-sm font-semibold text-slate-700 flex-1">
+          <div className="flex justify-center items-center gap-8 text-base font-semibold text-slate-700 flex-1">
             {navLinks.map((link) => (
               <Link
                 key={link.title}

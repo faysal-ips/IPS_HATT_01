@@ -55,7 +55,7 @@ export default function ProductCard({ product, priority = false }) {
           onError={() => setImgSrc(PLACEHOLDER)}
         />
 
-        {off > 0 && (
+        {/* {off > 0 && (
           <span className="absolute top-2.5 left-2.5 bg-rose-600 text-white text-[11px] md:text-xs font-bold px-2.5 py-1 rounded-full shadow">
             -{off}%
           </span>
@@ -64,7 +64,7 @@ export default function ProductCard({ product, priority = false }) {
           <span className="absolute top-2.5 right-2.5 bg-slate-900 text-white text-[11px] md:text-xs font-bold px-2.5 py-1 rounded-full shadow">
             Out of Stock
           </span>
-        )}
+        )} */}
       </Link>
 
       {/* Body */}
@@ -107,12 +107,12 @@ export default function ProductCard({ product, priority = false }) {
                     {formatBDT(regular)}
                   </span>
                 )}
+                {off > 0 && (
+                  <span className="rounded-full bg-rose-100 px-2 py-0.5 text-[11px] font-bold text-rose-700">
+                    -{off}%
+                  </span>
+                )}
               </div>
-              {onSale && (
-                <p className="text-[11px] md:text-xs font-semibold text-rose-600">
-                  Save {formatBDT(regular - price)}
-                </p>
-              )}
             </>
           ) : (
             <span className="text-sm font-bold text-slate-600">
