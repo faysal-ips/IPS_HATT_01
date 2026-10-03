@@ -13,7 +13,7 @@ export default function HeroSlider() {
   // Apnar 3-ti banner image path ba URL ekhane bose din
   const slides = [
     { id: 1, image: "/banners/b1.jpg", alt: "IPS Banner 1" },
-    { id: 2, image: "/banners/b2.jpg", alt: "IPS Banner 2" },
+    // { id: 2, image: "/banners/b2.jpg", alt: "IPS Banner 2" },
     { id: 3, image: "/banners/b3.jpg", alt: "IPS Banner 3" },
   ];
 

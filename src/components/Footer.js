@@ -10,6 +10,7 @@ import {
 } from "react-icons/fa";
 import { Phone, Mail, MapPin, ArrowUp, Banknote } from "lucide-react";
 import { SITE } from "@/lib/site";
+import Logo from "./header/Logo";
 
 const WA_LINK = `https://wa.me/${SITE.whatsapp}?text=${encodeURIComponent(
   "Hello IPS HATT, ami ekta product shomporke jante chai."
@@ -85,9 +86,7 @@ export default function Footer() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-8 pb-10 border-b border-slate-700/60">
             {/* Column 1: Brand Info & Social */}
             <div className="lg:col-span-4 space-y-4">
-              <h3 className="text-2xl font-black tracking-wider text-white">
-                IPS <span className="text-[#00a651]">HATT</span>
-              </h3>
+              <Logo size="lg" />
               <p className="text-xs md:text-base text-slate-100 leading-relaxed font-normal">
                 Welcome to IPS HATT. We are the leading solar and power
                 equipment provider in Bangladesh. We deliver premium imported

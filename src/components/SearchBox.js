@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { useRouter, useSearchParams } from "next/navigation";
 import { Search, Loader2 } from "lucide-react";
-
+import { startNavProgress } from "@/components/NavProgress";
 const PLACEHOLDER = "/placeholder.svg";
 const fmt = (n) => `৳${Number(n || 0).toLocaleString("en-BD")}`;
 
@@ -76,6 +76,7 @@ function SearchBoxInner({ variant = "desktop", onNavigate }) {
   const go = (href) => {
     inputRef.current?.blur();
     close();
+    startNavProgress();
     router.push(href);
   };
 
@@ -130,12 +131,12 @@ function SearchBoxInner({ variant = "desktop", onNavigate }) {
         >
           <input
             {...inputProps}
-            className="w-full border border-gray-300 rounded-l-md px-4 py-2 text-sm focus:outline-none focus:border-[#00a651]"
+            className="w-full border border-gray-300 rounded-l-md px-4 py-3 text-sm focus:outline-none focus:border-[#00a651]"
           />
           <button
             type="submit"
             aria-label="Search"
-            className="bg-[#00a651] text-white px-5 py-2.5 rounded-r-md hover:bg-emerald-700 transition-colors flex items-center justify-center"
+            className="bg-[#00a651] text-white px-5 py-3 h-[46px]  rounded-r-md hover:bg-emerald-700 transition-colors flex items-center justify-center"
           >
             {loading ? (
               <Loader2 className="w-4 h-4 animate-spin" />
