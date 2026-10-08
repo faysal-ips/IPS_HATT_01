@@ -1,6 +1,20 @@
 import { api } from "@/lib/woocommerce";
 import { decodeHtml } from "@/lib/html";
 
+//check
+
+const res = await fetch(url, options); // apnar existing fetch
+const text = await res.text();
+console.log("API STATUS:", res.status, "| BODY:", text.slice(0, 300));
+
+let data = [];
+try {
+  const parsed = JSON.parse(text);
+  data = Array.isArray(parsed) ? parsed : [];
+} catch {
+  data = [];
+}
+
 export const PER_PAGE = 20;
 
 export const SORTS = {
