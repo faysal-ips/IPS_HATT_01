@@ -14,7 +14,7 @@ export default function HeroSlider() {
   const slides = [
     { id: 1, image: "/banners/b1.jpg", alt: "IPS Banner 1" },
     // { id: 2, image: "/banners/b2.jpg", alt: "IPS Banner 2" },
-    { id: 3, image: "/banners/b3.jpg", alt: "IPS Banner 3" },
+    { id: 3, image: "/banners/b3.png", alt: "IPS Banner 3" },
   ];
 
   return (

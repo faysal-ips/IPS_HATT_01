@@ -1,9 +1,16 @@
 import { FaFacebookF, FaWhatsapp, FaYoutube } from "react-icons/fa";
 
 const SOCIALS = [
-  { label: "Facebook", href: "#", icon: FaFacebookF },
-  { label: "WhatsApp", href: "#", icon: FaWhatsapp },
-  { label: "YouTube", href: "#", icon: FaYoutube },
+  {
+    label: "Facebook",
+    href: "https://www.facebook.com/share/1BpAnT6yur/?mibextid=wwXIfr",
+    icon: FaFacebookF,
+  },
+  {
+    label: "YouTube",
+    href: "https://www.youtube.com/@Banglatech688",
+    icon: FaYoutube,
+  },
 ];
 import { Phone } from "lucide-react";
 import { SITE } from "@/lib/site";
@@ -14,7 +21,7 @@ export default function TopBar() {
         {/* Welcome text: shudhu md+ screen-e */}
         <a
           href={`tel:${SITE.phones[0].tel}`}
-          className="hidden xl:flex items-center gap-2.5 text-slate-100 hover:text-[#00a651] transition-colors"
+          className="hidden xl:flex items-center gap-2.5 text-slate-100 hover:text-[#fdfffe] transition-colors"
         >
           <span className="flex h-9 w-9 items-center justify-center rounded-full bg-emerald-50 text-[#00a651]">
             <Phone className="h-4 w-4" />
@@ -42,7 +49,7 @@ export default function TopBar() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label={label}
-              className="rounded-full bg-white  p-2 transition-colors duration-200 hover:bg-white/40"
+              className="rounded-full bg-white  p-2 transition-colors duration-200 hover:bg-white/100"
             >
               <Icon className="h-[15px] w-[15px] text-[#00a651]" />
             </a>

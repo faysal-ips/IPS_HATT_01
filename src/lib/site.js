@@ -1,16 +1,11 @@
 export const SITE = {
   name: "IPS HATT",
   tagline: "Solar. IPS. Battery. Energy Solution",
-  phones: [
-    { label: "+880 9611901250", tel: "+8809611901250" },
-    { label: "+880 1316308733", tel: "+8801316308733" },
-  ],
+  phones: [{ label: "+880 01601808095", tel: "+88016018080951" }],
   // WhatsApp number: country code shoho, + chhara (nijer asol number boshao)
-  whatsapp: "8801316308733",
-  email: "support@ipshatt.com",
-  address:
-    "Technohaven Tower, House #3, 5th Floor, Road #2, Motijheel, Dhaka-1000, Bangladesh",
-  mapQuery: "Technohaven Tower, Motijheel, Dhaka",
+  whatsapp: "01601808095",
+  email: "foysalahamed113355@gmail.com",
+  address: "Shop # 47, Zirani New Market,Ground Floor, Ashulia, Savar, Dhaka.",
 };
 
 // Policy page-er songkha: ekhane bodlalei pura page update hobe

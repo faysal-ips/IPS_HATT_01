@@ -20,19 +20,14 @@ const WA_LINK = `https://wa.me/${SITE.whatsapp}?text=${encodeURIComponent(
 const SOCIALS = [
   {
     name: "Facebook",
-    href: "#",
+    href: "https://www.facebook.com/share/1BpAnT6yur/?mibextid=wwXIfr",
     Icon: FaFacebookF,
     hover: "hover:bg-blue-600 hover:border-blue-600",
   },
-  {
-    name: "Instagram",
-    href: "#",
-    Icon: FaInstagram,
-    hover: "hover:bg-pink-600 hover:border-pink-600",
-  },
+
   {
     name: "YouTube",
-    href: "#",
+    href: "https://www.youtube.com/@Banglatech688",
     Icon: FaYoutube,
     hover: "hover:bg-red-600 hover:border-red-600",
   },

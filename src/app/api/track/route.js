@@ -2,7 +2,7 @@ import { NextResponse } from "next/server";
 import { api } from "@/lib/woocommerce";
 import { normalizePhone } from "@/lib/checkout";
 import { decodeHtml } from "@/lib/html";
-
+import { SITE } from "@/lib/site";
 const NOT_FOUND =
   "We could not find an order with these details. Please check your order number and mobile number.";
 
@@ -71,6 +71,14 @@ function findTracking(meta = []) {
 }
 
 export async function POST(req) {
+  // WhatsApp mode-e online tracking nai
+  if ((process.env.ORDER_MODE || "whatsapp") !== "woocommerce") {
+    return fail(
+      `Online tracking is not available yet. Please contact us on WhatsApp or call ${SITE.phones[0].label} for your order status.`,
+      503
+    );
+  }
+
   const ip = (req.headers.get("x-forwarded-for") || "unknown")
     .split(",")[0]
     .trim();

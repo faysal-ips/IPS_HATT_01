@@ -80,18 +80,18 @@ export function validateCheckout(f = {}) {
   const email = String(f.email || "").trim();
 
   if (name.length < 2 || name.length > 80)
-    errors.name = "Apnar poorno naam likhun.";
+    errors.name = "Please enter your full name.";
   if (!/^01[3-9]\d{8}$/.test(normalizePhone(f.phone)))
-    errors.phone = "Sothik mobile number din (jemon 01712345678).";
+    errors.phone = "Enter a valid mobile number, for example 01712345678.";
   if (email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email))
-    errors.email = "Email thik nei.";
+    errors.email = "Enter a valid email address.";
   if (!DISTRICTS.includes(f.district))
-    errors.district = "District select korun.";
+    errors.district = "Please select your district.";
   if (address.length < 10 || address.length > 250)
     errors.address =
-      "Bari/road/thana shoho puro thikana likhun (kom-pokkhe 10 okkhor).";
+      "Enter your full address with house, road and area (at least 10 characters).";
   if (String(f.note || "").length > 500)
-    errors.note = "Note 500 okkhorer moddhe rakhun.";
+    errors.note = "Note must be 500 characters or fewer.";
 
   return errors;
 }

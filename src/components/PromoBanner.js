@@ -12,9 +12,8 @@ import "swiper/css/pagination";
 export default function PromoBanner() {
   // Apnar promo banner image path / URL ekhane bose din
   const promoSlides = [
-    { id: 1, image: "/banners/promo1.png", alt: "Promo Banner 1" },
-    { id: 2, image: "/banners/promo2.png", alt: "Promo Banner 2" },
-    { id: 3, image: "/banners/promo3.png", alt: "Promo Banner 3" },
+    { id: 1, image: "/banners/promo1.jpg", alt: "Promo Banner 1" },
+    { id: 2, image: "/banners/promo2.jpg", alt: "Promo Banner 2" },
   ];
 
   return (

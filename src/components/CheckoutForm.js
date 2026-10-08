@@ -12,11 +12,18 @@ import {
   ShoppingBag,
   Loader2,
   AlertCircle,
+  MessageCircle,
 } from "lucide-react";
 import { useCart, formatBDT } from "@/context/CartContext";
-import { DISTRICTS, validateCheckout } from "@/lib/checkout";
+import { DISTRICTS, validateCheckout, normalizePhone } from "@/lib/checkout";
+import { SITE } from "@/lib/site";
 
 const PLACEHOLDER = "/placeholder.svg";
+
+// "whatsapp"    = order opens in WhatsApp (no backend needed)
+// "woocommerce" = order is saved in WooCommerce (when a real backend is ready)
+const ORDER_MODE = process.env.NEXT_PUBLIC_ORDER_MODE || "whatsapp";
+const IS_WHATSAPP = ORDER_MODE !== "woocommerce";
 
 const inputCls = (err) =>
   `w-full rounded-xl border-2 px-4 py-3 text-base text-slate-900 bg-white outline-none transition-colors placeholder:text-slate-400 ${
@@ -47,6 +54,27 @@ function Field({ id, label, required, error, hint, children }) {
   );
 }
 
+function buildWhatsAppMessage(form, items, total, ref) {
+  const email = String(form.email || "").trim();
+  const note = String(form.note || "").trim();
+  return [
+    `*New Order ${ref}*`,
+    "",
+    ...items.map(
+      (i, n) => `${n + 1}. ${i.name} x ${i.qty} = ${formatBDT(i.price * i.qty)}`
+    ),
+    "",
+    `*Total: ${formatBDT(total)}* (Cash on Delivery, free delivery)`,
+    "",
+    `Name: ${form.name.trim()}`,
+    `Phone: ${normalizePhone(form.phone)}`,
+    ...(email ? [`Email: ${email}`] : []),
+    `District: ${form.district}`,
+    `Address: ${form.address.trim()}`,
+    ...(note ? [`Note: ${note}`] : []),
+  ].join("\n");
+}
+
 export default function CheckoutForm() {
   const router = useRouter();
   const { items, hydrated, subtotal, totalQty, clearCart, openCart } =
@@ -71,18 +99,8 @@ export default function CheckoutForm() {
     if (errors[k]) setErrors((er) => ({ ...er, [k]: undefined }));
   };
 
-  async function onSubmit(e) {
-    e.preventDefault();
-    if (submitting) return;
-
-    const errs = validateCheckout(form);
-    setErrors(errs);
-    const first = Object.keys(errs)[0];
-    if (first) {
-      document.getElementById(`f-${first}`)?.focus();
-      return;
-    }
-
+  // Real backend flow (WooCommerce)
+  async function submitToServer() {
     setSubmitting(true);
     setServerError("");
     try {
@@ -97,7 +115,9 @@ export default function CheckoutForm() {
       const data = await res.json().catch(() => ({}));
       if (!res.ok) {
         if (data.errors) setErrors(data.errors);
-        throw new Error(data.error || "Order place kora jayni.");
+        throw new Error(
+          data.error || "We could not place your order. Please try again."
+        );
       }
       setPlaced(true);
       clearCart();
@@ -110,7 +130,47 @@ export default function CheckoutForm() {
     }
   }
 
-  // cart browser theke load hocche
+  function onSubmit(e) {
+    e.preventDefault();
+    if (submitting) return;
+    if (form.website) return; // honeypot: bots only
+
+    const errs = validateCheckout(form);
+    setErrors(errs);
+    const first = Object.keys(errs)[0];
+    if (first) {
+      document.getElementById(`f-${first}`)?.focus();
+      return;
+    }
+
+    if (!IS_WHATSAPP) {
+      submitToServer();
+      return;
+    }
+
+    // WhatsApp flow. window.open must run right here (no await before it),
+    // otherwise mobile browsers block it as a popup.
+    const ref = `IH-${Date.now().toString().slice(-8)}`;
+    const url = `https://wa.me/${SITE.whatsapp}?text=${encodeURIComponent(
+      buildWhatsAppMessage(form, items, subtotal, ref)
+    )}`;
+    try {
+      sessionStorage.setItem("ips-wa-order", JSON.stringify({ ref, url }));
+    } catch {}
+
+    setSubmitting(true);
+    const win = window.open(url, "_blank");
+    clearCart();
+    if (!win) {
+      // Popup blocked: continue in this tab
+      window.location.href = url;
+      return;
+    }
+    setPlaced(true);
+    router.push(`/order-success?order=${ref}&key=received`);
+  }
+
+  // Cart is loading from the browser
   if (!hydrated) {
     return (
       <div className="max-w-[1600px] mx-auto px-4 py-10">
@@ -123,12 +183,12 @@ export default function CheckoutForm() {
     );
   }
 
-  // order hoye gele redirect howar moddhe
+  // Order placed, redirecting
   if (placed) {
     return (
       <div className="min-h-[50vh] flex flex-col items-center justify-center gap-3 text-slate-600">
         <Loader2 className="w-8 h-8 animate-spin text-[#00a651]" />
-        <p className="font-semibold">Order confirm hocche...</p>
+        <p className="font-semibold">Confirming your order...</p>
       </div>
     );
   }
@@ -140,16 +200,14 @@ export default function CheckoutForm() {
           <ShoppingBag className="w-9 h-9 text-slate-400" />
         </div>
         <h1 className="text-2xl font-extrabold text-slate-800">
-          Apnar cart faka
+          Your cart is empty
         </h1>
-        <p className="text-slate-500">
-          Checkout korar age kichu product add korun.
-        </p>
+        <p className="text-slate-500">Add some products before checking out.</p>
         <Link
           href="/"
           className="mt-2 bg-[#00a651] hover:bg-emerald-700 text-white font-semibold px-6 py-2.5 rounded-xl transition-colors"
         >
-          Shopping Shuru Korun
+          Start Shopping
         </Link>
       </div>
     );
@@ -176,25 +234,20 @@ export default function CheckoutForm() {
       >
         {/* LEFT: details */}
         <div className="lg:col-span-7 space-y-6">
-          <section className="bg-white rounded-2xl border border-slate-100 shadow-sm p-5 md:p-7">
+          <section className="relative bg-white rounded-2xl border border-slate-100 shadow-sm p-5 md:p-7">
             <h2 className="text-lg font-extrabold text-slate-900 mb-5 flex items-center gap-2.5">
               <span className="w-1.5 h-6 bg-[#00a651] rounded-full" />
               Delivery Information
             </h2>
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-              <Field
-                id="f-name"
-                label="Poorno Naam"
-                required
-                error={errors.name}
-              >
+              <Field id="f-name" label="Full Name" required error={errors.name}>
                 <input
                   id="f-name"
                   value={form.name}
                   onChange={set("name")}
                   autoComplete="name"
-                  placeholder="Apnar naam"
+                  placeholder="Your full name"
                   className={inputCls(errors.name)}
                 />
               </Field>
@@ -241,7 +294,7 @@ export default function CheckoutForm() {
                   onChange={set("district")}
                   className={inputCls(errors.district)}
                 >
-                  <option value="">District select korun</option>
+                  <option value="">Select your district</option>
                   {DISTRICTS.map((d) => (
                     <option key={d} value={d}>
                       {d}
@@ -253,10 +306,10 @@ export default function CheckoutForm() {
               <div className="sm:col-span-2">
                 <Field
                   id="f-address"
-                  label="Puro Thikana"
+                  label="Full Address"
                   required
                   error={errors.address}
-                  hint="Bari/flat, road, area, thana - sob likhun."
+                  hint="Include house or flat, road, area and thana."
                 >
                   <textarea
                     id="f-address"
@@ -264,7 +317,7 @@ export default function CheckoutForm() {
                     onChange={set("address")}
                     rows={3}
                     autoComplete="street-address"
-                    placeholder="Jemon: House 12, Road 5, Mirpur-10, Dhaka"
+                    placeholder="e.g. House 12, Road 5, Mirpur-10, Dhaka"
                     className={inputCls(errors.address)}
                   />
                 </Field>
@@ -277,14 +330,14 @@ export default function CheckoutForm() {
                     value={form.note}
                     onChange={set("note")}
                     rows={2}
-                    placeholder="Delivery shomporke kono nirdesh thakle likhun"
+                    placeholder="Any delivery instructions"
                     className={inputCls(errors.note)}
                   />
                 </Field>
               </div>
             </div>
 
-            {/* Honeypot: manush dekhbe na */}
+            {/* Honeypot: hidden from real users */}
             <input
               type="text"
               name="website"
@@ -310,7 +363,8 @@ export default function CheckoutForm() {
                   Cash on Delivery
                 </p>
                 <p className="text-sm text-slate-600 mt-1">
-                  Product haate peye taka din. Agey kono payment lagbe na.
+                  Pay in cash when you receive your products. No advance payment
+                  needed.
                 </p>
               </div>
             </div>
@@ -332,7 +386,7 @@ export default function CheckoutForm() {
                 onClick={openCart}
                 className="text-sm font-semibold text-[#00a651] hover:underline"
               >
-                Cart edit
+                Edit cart
               </button>
             </div>
 
@@ -409,23 +463,34 @@ export default function CheckoutForm() {
                   <Loader2 className="w-5 h-5 animate-spin" />
                   Processing...
                 </>
+              ) : IS_WHATSAPP ? (
+                <>
+                  <MessageCircle className="w-5 h-5" />
+                  Order Now via WhatsApp - {formatBDT(subtotal)}
+                </>
               ) : (
                 <>
-                  <Lock className="w-4.5 h-4.5" />
+                  <Lock className="w-5 h-5" />
                   Place Order - {formatBDT(subtotal)}
                 </>
               )}
             </button>
 
+            {IS_WHATSAPP && (
+              <p className="mt-3 text-xs text-center text-slate-500">
+                Your order opens in WhatsApp. Tap Send there to confirm it.
+              </p>
+            )}
+
             <p className="mt-3 text-xs text-center text-slate-500">
-              Order korle apni amader{" "}
+              By placing this order, you agree to our{" "}
               <Link
                 href="/policy#terms"
                 className="underline hover:text-[#00a651]"
               >
                 Terms & Conditions
               </Link>
-              -e sommoti dicchen.
+              .
             </p>
 
             <div className="mt-5 grid grid-cols-2 gap-3 text-xs text-slate-600">

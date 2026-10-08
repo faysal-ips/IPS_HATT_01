@@ -60,15 +60,15 @@ export default function ContactForm() {
 
   function validate() {
     const e = {};
-    if (f.name.trim().length < 2) e.name = "Apnar naam likhun.";
+    if (f.name.trim().length < 2) e.name = "Please enter your name.";
     if (!/^01[3-9]\d{8}$/.test(normalizePhone(f.phone)))
-      e.phone = "Sothik mobile number din (jemon 01712345678).";
+      e.phone = "Enter a valid mobile number, for example 01712345678.";
     if (f.email.trim() && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(f.email.trim()))
-      e.email = "Email thik nei.";
+      e.email = "Enter a valid email address.";
     if (f.message.trim().length < 10)
-      e.message = "Kom-pokkhe 10 okkhorer message likhun.";
+      e.message = "Please write a message of at least 10 characters.";
     if (f.message.length > 1000)
-      e.message = "Message 1000 okkhorer moddhe rakhun.";
+      e.message = "Message must be 1000 characters or fewer.";
     setErrors(e);
     if (Object.keys(e).length) {
       document.getElementById(`c-${Object.keys(e)[0]}`)?.focus();
@@ -112,13 +112,13 @@ export default function ContactForm() {
   return (
     <form onSubmit={viaWhatsApp} noValidate className="space-y-4">
       <div className="grid sm:grid-cols-2 gap-4">
-        <Field id="c-name" label="Apnar Naam" required error={errors.name}>
+        <Field id="c-name" label="Full Name" required error={errors.name}>
           <input
             id="c-name"
             value={f.name}
             onChange={set("name")}
             autoComplete="name"
-            placeholder="Poorno naam"
+            placeholder="Your full name"
             className={inputCls(errors.name)}
           />
         </Field>
@@ -145,7 +145,7 @@ export default function ContactForm() {
             className={inputCls(errors.email)}
           />
         </Field>
-        <Field id="c-topic" label="Bishoy" required>
+        <Field id="c-topic" label="Topic" required>
           <select
             id="c-topic"
             value={f.topic}
@@ -161,7 +161,7 @@ export default function ContactForm() {
 
       <Field
         id="c-message"
-        label="Apnar Message"
+        label="Your Message"
         required
         error={errors.message}
       >
@@ -170,7 +170,7 @@ export default function ContactForm() {
           value={f.message}
           onChange={set("message")}
           rows={5}
-          placeholder="Jemon: 5 kW solar system-er jonno kon inverter ar battery dorkar?"
+          placeholder="e.g. Which inverter and battery do I need for a 5 kW solar system?"
           className={inputCls(errors.message)}
         />
       </Field>
@@ -198,8 +198,8 @@ export default function ContactForm() {
         >
           <CheckCircle2 className="w-5 h-5 shrink-0 mt-0.5" />
           <p>
-            {sent} app-e apnar message ready kora hoyeche. Shekhan theke{" "}
-            <strong>Send</strong> chapun. App na khulle sorasori call korun:{" "}
+            Your message is ready in {sent}. Tap <strong>Send</strong> there to
+            deliver it. If the app does not open, call us at{" "}
             <a
               className="font-bold underline"
               href={`tel:${SITE.phones[0].tel}`}
@@ -211,8 +211,8 @@ export default function ContactForm() {
       ) : (
         <p className="flex items-start gap-2 text-xs text-slate-500">
           <AlertCircle className="w-4 h-4 shrink-0 mt-0.5" />
-          Send chaple apnar WhatsApp ba email app-e message ready hoye khulbe.
-          Apni shekhan theke Send korben.
+          Your message will open ready to send in your WhatsApp or email app.
+          Tap Send there to deliver it.
         </p>
       )}
     </form>

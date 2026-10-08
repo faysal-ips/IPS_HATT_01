@@ -1,15 +1,54 @@
 import Link from "next/link";
 import { CheckCircle2, PackageSearch } from "lucide-react";
 import { api } from "@/lib/woocommerce";
+import { SITE } from "@/lib/site";
+import WhatsAppResend from "@/components/WhatsAppResend";
 
 export const metadata = { title: "Order Confirmed | IPS HATT" };
 
-// Server component: client file theke import kora jay na, tai local formatter
 const fmt = (n) => `৳${Number(n || 0).toLocaleString("en-BD")}`;
 
 export default async function OrderSuccessPage({ searchParams }) {
   const { order: id, key } = await searchParams;
 
+  // Order sent through WhatsApp (no backend)
+  if (key === "received" && /^IH-\d{8}$/.test(String(id || ""))) {
+    return (
+      <div className="max-w-xl mx-auto px-4 py-14 md:py-20 text-center">
+        <div className="w-20 h-20 mx-auto rounded-full bg-emerald-100 flex items-center justify-center mb-5">
+          <CheckCircle2 className="w-11 h-11 text-[#00a651]" />
+        </div>
+        <h1 className="text-2xl md:text-3xl font-extrabold text-slate-900">
+          Thank you for your order!
+        </h1>
+        <p className="mt-3 text-slate-600">
+          Please make sure you tapped <b>Send</b> in WhatsApp. Our team will
+          call you shortly to confirm your order.
+        </p>
+        <p className="mt-4 inline-block bg-slate-100 text-slate-800 font-bold px-4 py-1.5 rounded-full text-sm">
+          Order #{id}
+        </p>
+        <WhatsAppResend order={id} />
+        <p className="mt-6 text-sm text-slate-500">
+          Need help? Call us at{" "}
+          <a
+            href={`tel:${SITE.phones[0].tel}`}
+            className="font-bold text-slate-800 hover:text-[#00a651]"
+          >
+            {SITE.phones[0].label}
+          </a>
+        </p>
+        <Link
+          href="/"
+          className="inline-block mt-8 bg-[#00a651] hover:bg-emerald-700 text-white font-semibold px-7 py-3 rounded-xl transition-colors"
+        >
+          Continue Shopping
+        </Link>
+      </div>
+    );
+  }
+
+  // WooCommerce mode: load the saved order
   let order = null;
   if (id && key && /^\d+$/.test(id)) {
     try {
@@ -25,17 +64,17 @@ export default async function OrderSuccessPage({ searchParams }) {
       <div className="max-w-xl mx-auto px-4 py-20 text-center">
         <PackageSearch className="w-14 h-14 mx-auto text-slate-400 mb-4" />
         <h1 className="text-2xl font-extrabold text-slate-800 mb-2">
-          Order paowa jayni
+          Order not found
         </h1>
         <p className="text-slate-500 mb-6">
-          Link-ta thik nei ba expire hoye geche. Order-e shomossha hole call
-          korun: +880 9611901250
+          This link is invalid or has expired. If you need help with your order,
+          call us at {SITE.phones[0].label}.
         </p>
         <Link
           href="/"
           className="inline-block bg-[#00a651] hover:bg-emerald-700 text-white font-semibold px-6 py-2.5 rounded-xl transition-colors"
         >
-          Home-e Jan
+          Back to Home
         </Link>
       </div>
     );
@@ -50,11 +89,11 @@ export default async function OrderSuccessPage({ searchParams }) {
           <CheckCircle2 className="w-11 h-11 text-[#00a651]" />
         </div>
         <h1 className="text-2xl md:text-3xl font-extrabold text-slate-900">
-          Apnar order confirm hoyeche!
+          Your order has been placed!
         </h1>
         <p className="text-slate-600 mt-2">
-          Dhonnobad, {b.first_name}. Amader team shirshi-i apnake call kore
-          confirm korbe.
+          Thank you, {b.first_name}. Our team will call you shortly to confirm
+          your order.
         </p>
         <p className="mt-3 inline-block bg-slate-100 text-slate-800 font-bold px-4 py-1.5 rounded-full text-sm">
           Order #{order.number}
@@ -111,7 +150,9 @@ export default async function OrderSuccessPage({ searchParams }) {
             <p className="font-semibold text-slate-800">
               {order.payment_method_title}
             </p>
-            <p className="text-slate-600">Product haate peye taka din.</p>
+            <p className="text-slate-600">
+              Pay in cash when you receive your products.
+            </p>
           </div>
         </div>
       </div>

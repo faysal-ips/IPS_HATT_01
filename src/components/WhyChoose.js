@@ -167,7 +167,7 @@ export default function WhyChooseUs() {
         {/* Banner card */}
         <div className="group relative lg:col-span-4 min-h-[240px] sm:min-h-[300px] lg:min-h-full overflow-hidden rounded-2xl border border-slate-200/80 bg-slate-100 shadow-[0_20px_40px_-20px_rgba(15,23,42,0.35)]">
           <Image
-            src="/banners/why chosse.png"
+            src="/banners/why chosse.jpg"
             alt="Let's build a green Bangladesh"
             fill
             sizes="(max-width: 1024px) 100vw, 33vw"

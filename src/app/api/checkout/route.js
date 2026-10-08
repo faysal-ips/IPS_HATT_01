@@ -1,6 +1,7 @@
 import { NextResponse } from "next/server";
 import { api } from "@/lib/woocommerce";
 import { validateCheckout, normalizePhone } from "@/lib/checkout";
+import { SITE } from "@/lib/site";
 
 const fail = (error, status = 400, extra = {}) =>
   NextResponse.json({ error, ...extra }, { status });
@@ -13,15 +14,15 @@ export async function POST(req) {
     return fail("Invalid request.");
   }
 
-  // Honeypot: bot hole reject
+  // Honeypot: reject bots
   if (body.website) return fail("Invalid request.");
 
   const errors = validateCheckout(body);
   if (Object.keys(errors).length) {
-    return fail("Form-e bhul ache.", 422, { errors });
+    return fail("Please check the form.", 422, { errors });
   }
 
-  // Cart items sanitize + duplicate merge
+  // Sanitize cart items and merge duplicates
   const map = new Map();
   for (const it of Array.isArray(body.items) ? body.items.slice(0, 50) : []) {
     const id = Number.parseInt(it?.id, 10);
@@ -30,10 +31,10 @@ export async function POST(req) {
     if (!Number.isInteger(qty) || qty < 1 || qty > 99) continue;
     map.set(id, Math.min(99, (map.get(id) || 0) + qty));
   }
-  if (map.size === 0) return fail("Apnar cart faka.");
+  if (map.size === 0) return fail("Your cart is empty.");
 
   try {
-    // WooCommerce theke asol product (price/stock) verify
+    // Verify real products (price and stock)
     const ids = [...map.keys()];
     const { data: products } = await api.get("products", {
       include: ids.join(","),
@@ -46,14 +47,12 @@ export async function POST(req) {
       const p = byId.get(id);
       if (!p)
         return fail(
-          "Cart-er ekta product ar available nei. Cart update korun."
+          "A product in your cart is no longer available. Please update your cart."
         );
       if (p.stock_status !== "instock")
-        return fail(`"${p.name}" ekhon stock-e nei.`);
+        return fail(`"${p.name}" is currently out of stock.`);
       if (p.manage_stock && p.stock_quantity != null && p.stock_quantity < qty)
-        return fail(
-          `"${p.name}"-er matro ${p.stock_quantity}-ta stock-e ache.`
-        );
+        return fail(`Only ${p.stock_quantity} of "${p.name}" left in stock.`);
     }
 
     const name = body.name.trim();
@@ -105,7 +104,7 @@ export async function POST(req) {
   } catch (err) {
     console.error("Checkout error:", err?.response?.data || err);
     return fail(
-      "Order place kora jayni. Abar chesta korun, ba call korun: +880 9611901250",
+      `We could not place your order. Please try again or call ${SITE.phones[0].label}.`,
       500
     );
   }

@@ -3,7 +3,7 @@ import ContactForm from "@/components/ContactForm";
 import { SITE } from "@/lib/site";
 
 export const metadata = {
-  title: "Contact Us | IPS HATT",
+  title: "Contact Us | IPS HATT 01",
   description:
     "Call, WhatsApp or message IPS HATT for product advice, orders and warranty support.",
 };
@@ -84,7 +84,6 @@ export default function ContactPage() {
             href={`tel:${SITE.phones[0].tel}`}
           >
             <span className="block">{SITE.phones[0].label}</span>
-            <span className="block">{SITE.phones[1].label}</span>
           </InfoCard>
           <InfoCard
             icon={MessageCircle}

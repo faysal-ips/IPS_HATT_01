@@ -69,8 +69,13 @@ function listProducts(params = {}) {
 export const api = {
   async get(endpoint, params = {}) {
     if (endpoint === "products") return listProducts(params);
-    if (endpoint === "products/categories")
-      return { data: categoriesData, headers: {} };
+    if (endpoint === "products/categories") {
+      const hide = params.hide_empty === true || params.hide_empty === "true";
+      return {
+        data: categoriesData.filter((c) => !hide || c.count > 0),
+        headers: {},
+      };
+    }
     const m = endpoint.match(/^products\/(\d+)$/);
     if (m) {
       const p = productsData.find((x) => x.id === Number(m[1]));
