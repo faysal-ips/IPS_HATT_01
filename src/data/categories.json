@@ -1,0 +1,349 @@
+[
+  {
+    "id": 29,
+    "name": "Accessories",
+    "slug": "accessories",
+    "parent": 0,
+    "description": "\r\n\r\n\r\nNam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed ut.\r\n\r\n\r\n",
+    "display": "default",
+    "image": {
+      "id": 505,
+      "date_created": null,
+      "date_created_gmt": null,
+      "date_modified": null,
+      "date_modified_gmt": null,
+      "src": false,
+      "name": "",
+      "alt": ""
+    },
+    "menu_order": 0,
+    "count": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "http://ips-hatt-01.local/wp-json/wc/v3/products/categories/29",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://ips-hatt-01.local/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 56,
+    "name": "Battery",
+    "slug": "battery",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "http://ips-hatt-01.local/wp-json/wc/v3/products/categories/56",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://ips-hatt-01.local/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 61,
+    "name": "IPS &amp; UPS",
+    "slug": "ips-ups",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 3,
+    "_links": {
+      "self": [
+        {
+          "href": "http://ips-hatt-01.local/wp-json/wc/v3/products/categories/61",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://ips-hatt-01.local/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 59,
+    "name": "Lithium Battery",
+    "slug": "lithium-battery",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 4,
+    "_links": {
+      "self": [
+        {
+          "href": "http://ips-hatt-01.local/wp-json/wc/v3/products/categories/59",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://ips-hatt-01.local/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 40,
+    "name": "Men",
+    "slug": "men",
+    "parent": 0,
+    "description": "\r\n\r\n\r\nNam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed ut.\r\n\r\n\r\n",
+    "display": "default",
+    "image": {
+      "id": 499,
+      "date_created": "2026-09-28T07:06:55",
+      "date_created_gmt": "2026-09-28T07:06:55",
+      "date_modified": "2026-09-28T07:07:58",
+      "date_modified_gmt": "2026-09-28T07:07:58",
+      "src": "http://ips-hatt-01.local/wp-content/uploads/2018/12/men-fashion-free-img.jpg",
+      "name": "men fashion free img",
+      "alt": "men fashion free img"
+    },
+    "menu_order": 0,
+    "count": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "http://ips-hatt-01.local/wp-json/wc/v3/products/categories/40",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://ips-hatt-01.local/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 57,
+    "name": "Solar Inverter",
+    "slug": "solar-inverter",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 1,
+    "_links": {
+      "self": [
+        {
+          "href": "http://ips-hatt-01.local/wp-json/wc/v3/products/categories/57",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://ips-hatt-01.local/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 58,
+    "name": "Solar Panel",
+    "slug": "solar-panel",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "http://ips-hatt-01.local/wp-json/wc/v3/products/categories/58",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://ips-hatt-01.local/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 60,
+    "name": "Solar Panels",
+    "slug": "solar-panels",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 2,
+    "_links": {
+      "self": [
+        {
+          "href": "http://ips-hatt-01.local/wp-json/wc/v3/products/categories/60",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://ips-hatt-01.local/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 15,
+    "name": "Uncategorized",
+    "slug": "uncategorized",
+    "parent": 0,
+    "description": "",
+    "display": "default",
+    "image": null,
+    "menu_order": 0,
+    "count": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "http://ips-hatt-01.local/wp-json/wc/v3/products/categories/15",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://ips-hatt-01.local/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  },
+  {
+    "id": 48,
+    "name": "Women",
+    "slug": "women",
+    "parent": 0,
+    "description": "\r\n\r\n\r\nNam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condimentum sit amet a augue. Sed non neque elit sed ut.\r\n\r\n\r\n",
+    "display": "default",
+    "image": {
+      "id": 500,
+      "date_created": "2026-09-28T07:06:55",
+      "date_created_gmt": "2026-09-28T07:06:55",
+      "date_modified": "2026-09-28T07:07:58",
+      "date_modified_gmt": "2026-09-28T07:07:58",
+      "src": "http://ips-hatt-01.local/wp-content/uploads/2018/12/women-fashion-free-img.jpg",
+      "name": "women fashion free img",
+      "alt": "women fashion free img"
+    },
+    "menu_order": 0,
+    "count": 0,
+    "_links": {
+      "self": [
+        {
+          "href": "http://ips-hatt-01.local/wp-json/wc/v3/products/categories/48",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://ips-hatt-01.local/wp-json/wc/v3/products/categories"
+        }
+      ]
+    }
+  }
+]

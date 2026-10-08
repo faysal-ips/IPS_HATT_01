@@ -1,0 +1,1511 @@
+[
+  {
+    "id": 7654,
+    "name": "LONG RAN GOLD N-Type Mono Solar Panel 12V 150W",
+    "slug": "long-ran-gold-n-type-mono-solar-panel-12v-150w",
+    "permalink": "http://ips-hatt-01.local/product/long-ran-gold-n-type-mono-solar-panel-12v-150w/",
+    "date_created": "2026-09-30T06:39:47",
+    "date_created_gmt": "2026-09-30T06:39:47",
+    "date_modified": "2026-10-03T08:40:41",
+    "date_modified_gmt": "2026-10-03T08:40:41",
+    "type": "simple",
+    "status": "publish",
+    "featured": false,
+    "catalog_visibility": "visible",
+    "description": "<h3>Key Features</h3>\n<ul>\n<li><strong>Compact 12V Output:</strong> Direct 12V system compatibility for charging home IPS batteries and DC solar setups.</li>\n<li><strong>High-Efficiency N-Type Cells:</strong> Premium grade single-crystal solar cells for optimal output under low sunlight.</li>\n<li><strong>Heavy Duty Aluminum Frame:</strong> Anodized aluminum alloy frame resistant to rust and severe wind conditions.</li>\n</ul>\n<h3>Technical Specifications</h3>\n<ul>\n<li><strong>Brand:</strong> Long Ran Gold</li>\n<li><strong>Power Output:</strong> 150 Watts</li>\n<li><strong>Voltage System:</strong> 12V DC</li>\n<li><strong>Cell Type:</strong> N-Type Monocrystalline</li>\n<li><strong>Application:</strong> Small Home Solar, DC Systems, Boat &amp; RV Charging</li>\n</ul>\n<h3>Warranty &amp; Delivery</h3>\n<ul>\n<li><strong>Warranty:</strong> 10-Year Product Warranty | 25-Year Performance Warranty</li>\n<li><strong>Delivery inside Dhaka:</strong> Delivered within 1-2 business days.</li>\n<li><strong>Delivery outside Dhaka:</strong> Delivered within 2-3 business days.</li>\n</ul>\n",
+    "short_description": "<p>High-efficiency 150W 12V N-Type Monocrystalline solar panel compact design ideal for small homes, DC solar lights, and battery charging.</p>\n",
+    "sku": "LONG-RAN-GOLD-150W-12V",
+    "price": "3800",
+    "regular_price": "4200",
+    "sale_price": "3800",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": true,
+    "purchasable": true,
+    "total_sales": 2,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": -1,
+    "download_expiry": -1,
+    "external_url": "",
+    "button_text": "",
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": true,
+    "stock_quantity": 58,
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "low_stock_amount": null,
+    "sold_individually": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_required": true,
+    "shipping_taxable": true,
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "reviews_allowed": true,
+    "average_rating": "0.00",
+    "rating_count": 0,
+    "upsell_ids": [],
+    "cross_sell_ids": [],
+    "parent_id": 0,
+    "purchase_note": "",
+    "categories": [
+      {
+        "id": 60,
+        "name": "Solar Panels",
+        "slug": "solar-panels"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "images": [
+      {
+        "id": 7655,
+        "date_created": "2026-09-30T06:53:20",
+        "date_created_gmt": "2026-09-30T06:53:20",
+        "date_modified": "2026-09-30T06:53:20",
+        "date_modified_gmt": "2026-09-30T06:53:20",
+        "src": "/products/7654-0.jpg",
+        "name": "long-ran-gold-150w",
+        "alt": "",
+        "srcset": "http://ips-hatt-01.local/wp-content/uploads/2026/09/long-ran-gold-150w.jpg 800w, http://ips-hatt-01.local/wp-content/uploads/2026/09/long-ran-gold-150w-300x300.jpg 300w, http://ips-hatt-01.local/wp-content/uploads/2026/09/long-ran-gold-150w-150x150.jpg 150w, http://ips-hatt-01.local/wp-content/uploads/2026/09/long-ran-gold-150w-768x768.jpg 768w, http://ips-hatt-01.local/wp-content/uploads/2026/09/long-ran-gold-150w-600x600.jpg 600w, http://ips-hatt-01.local/wp-content/uploads/2026/09/long-ran-gold-150w-100x100.jpg 100w",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "thumbnail": "http://ips-hatt-01.local/wp-content/uploads/2026/09/long-ran-gold-150w-300x300.jpg"
+      }
+    ],
+    "attributes": [],
+    "default_attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "menu_order": 0,
+    "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>4,200.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></del> <span class=\"screen-reader-text\">Original price was: 4,200.00&#2547;&nbsp;.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>3,800.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></ins><span class=\"screen-reader-text\">Current price is: 3,800.00&#2547;&nbsp;.</span>",
+    "related_ids": [
+      7648
+    ],
+    "meta_data": [
+      {
+        "id": 4279,
+        "key": "site-sidebar-layout",
+        "value": "default"
+      },
+      {
+        "id": 4281,
+        "key": "ast-site-content-layout",
+        "value": "default"
+      },
+      {
+        "id": 4282,
+        "key": "site-content-style",
+        "value": "default"
+      },
+      {
+        "id": 4283,
+        "key": "site-sidebar-style",
+        "value": "default"
+      },
+      {
+        "id": 4284,
+        "key": "theme-transparent-header-meta",
+        "value": "default"
+      },
+      {
+        "id": 4285,
+        "key": "astra-migrate-meta-layouts",
+        "value": "set"
+      }
+    ],
+    "stock_status": "instock",
+    "has_options": false,
+    "post_password": "",
+    "global_unique_id": "",
+    "_links": {
+      "self": [
+        {
+          "href": "http://ips-hatt-01.local/wp-json/wc/v3/products/7654",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://ips-hatt-01.local/wp-json/wc/v3/products"
+        }
+      ]
+    }
+  },
+  {
+    "id": 7652,
+    "name": "Microtek Luxe 1400 Pure Sine Wave Home IPS Inverter",
+    "slug": "microtek-luxe-1400-pure-sine-wave-home-ips-inverter",
+    "permalink": "http://ips-hatt-01.local/product/microtek-luxe-1400-pure-sine-wave-home-ips-inverter/",
+    "date_created": "2026-09-30T06:39:46",
+    "date_created_gmt": "2026-09-30T06:39:46",
+    "date_modified": "2026-09-30T15:36:54",
+    "date_modified_gmt": "2026-09-30T15:36:54",
+    "type": "simple",
+    "status": "publish",
+    "featured": false,
+    "catalog_visibility": "visible",
+    "description": "<h3>Key Features</h3>\n<ul>\n<li><strong>Micro-Controller Based Design:</strong> High-performance microcontroller unit providing accurate wave shaping and quick switchover.</li>\n<li><strong>Multi-Stage Smart Charging:</strong> Prevents battery overcharging and water loss in lead-acid/tubular batteries.</li>\n<li><strong>Durable Enclosure:</strong> Sleek aesthetic finish with high heat-dissipation ventilation.</li>\n</ul>\n<h3>Technical Specifications</h3>\n<ul>\n<li><strong>Brand:</strong> Microtek</li>\n<li><strong>Model:</strong> Luxe 1400</li>\n<li><strong>Capacity:</strong> 1400VA / 12V System</li>\n<li><strong>Waveform:</strong> Pure Sine Wave</li>\n<li><strong>Protection:</strong> Overload, Short Circuit, Reverse Polarity Protection</li>\n</ul>\n<h3>Warranty &amp; Delivery</h3>\n<ul>\n<li><strong>Warranty:</strong> 2 Years Brand Warranty</li>\n<li><strong>Delivery inside Dhaka:</strong> Delivered within 1-2 business days.</li>\n<li><strong>Delivery outside Dhaka:</strong> Delivered within 2-3 business days.</li>\n</ul>\n",
+    "short_description": "<p>Heavy-duty 1400VA Pure Sine Wave IPS Inverter featuring Dura-Retain tech for extended battery life and silent operation.</p>\n",
+    "sku": "MICROTEK-LUXE-1400",
+    "price": "15800",
+    "regular_price": "17000",
+    "sale_price": "15800",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": true,
+    "purchasable": true,
+    "total_sales": 0,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": -1,
+    "download_expiry": -1,
+    "external_url": "",
+    "button_text": "",
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": true,
+    "stock_quantity": 14,
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "low_stock_amount": null,
+    "sold_individually": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_required": true,
+    "shipping_taxable": true,
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "reviews_allowed": true,
+    "average_rating": "0.00",
+    "rating_count": 0,
+    "upsell_ids": [],
+    "cross_sell_ids": [],
+    "parent_id": 0,
+    "purchase_note": "",
+    "categories": [
+      {
+        "id": 61,
+        "name": "IPS &amp; UPS",
+        "slug": "ips-ups"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "images": [
+      {
+        "id": 7663,
+        "date_created": "2026-09-30T06:59:32",
+        "date_created_gmt": "2026-09-30T06:59:32",
+        "date_modified": "2026-09-30T06:59:32",
+        "date_modified_gmt": "2026-09-30T06:59:32",
+        "src": "/products/7652-0.jpg",
+        "name": "microtek-luxe-1400",
+        "alt": "",
+        "srcset": "http://ips-hatt-01.local/wp-content/uploads/2026/09/microtek-luxe-1400.jpg 800w, http://ips-hatt-01.local/wp-content/uploads/2026/09/microtek-luxe-1400-300x300.jpg 300w, http://ips-hatt-01.local/wp-content/uploads/2026/09/microtek-luxe-1400-150x150.jpg 150w, http://ips-hatt-01.local/wp-content/uploads/2026/09/microtek-luxe-1400-768x768.jpg 768w, http://ips-hatt-01.local/wp-content/uploads/2026/09/microtek-luxe-1400-600x600.jpg 600w, http://ips-hatt-01.local/wp-content/uploads/2026/09/microtek-luxe-1400-100x100.jpg 100w",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "thumbnail": "http://ips-hatt-01.local/wp-content/uploads/2026/09/microtek-luxe-1400-300x300.jpg"
+      }
+    ],
+    "attributes": [],
+    "default_attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "menu_order": 0,
+    "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>17,000.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></del> <span class=\"screen-reader-text\">Original price was: 17,000.00&#2547;&nbsp;.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>15,800.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></ins><span class=\"screen-reader-text\">Current price is: 15,800.00&#2547;&nbsp;.</span>",
+    "related_ids": [
+      7650,
+      7651
+    ],
+    "meta_data": [
+      {
+        "id": 4378,
+        "key": "site-sidebar-layout",
+        "value": "default"
+      },
+      {
+        "id": 4380,
+        "key": "ast-site-content-layout",
+        "value": "default"
+      },
+      {
+        "id": 4381,
+        "key": "site-content-style",
+        "value": "default"
+      },
+      {
+        "id": 4382,
+        "key": "site-sidebar-style",
+        "value": "default"
+      },
+      {
+        "id": 4383,
+        "key": "theme-transparent-header-meta",
+        "value": "default"
+      },
+      {
+        "id": 4384,
+        "key": "astra-migrate-meta-layouts",
+        "value": "set"
+      }
+    ],
+    "stock_status": "instock",
+    "has_options": false,
+    "post_password": "",
+    "global_unique_id": "",
+    "_links": {
+      "self": [
+        {
+          "href": "http://ips-hatt-01.local/wp-json/wc/v3/products/7652",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://ips-hatt-01.local/wp-json/wc/v3/products"
+        }
+      ]
+    }
+  },
+  {
+    "id": 7651,
+    "name": "Luminous Zelio+ 1100 Pure Sine Wave Home IPS Inverter",
+    "slug": "luminous-zelio-1100-pure-sine-wave-home-ips-inverter",
+    "permalink": "http://ips-hatt-01.local/product/luminous-zelio-1100-pure-sine-wave-home-ips-inverter/",
+    "date_created": "2026-09-30T06:39:46",
+    "date_created_gmt": "2026-09-30T06:39:46",
+    "date_modified": "2026-10-01T04:05:32",
+    "date_modified_gmt": "2026-10-01T04:05:32",
+    "type": "simple",
+    "status": "publish",
+    "featured": true,
+    "catalog_visibility": "visible",
+    "description": "<h3>Key Features</h3>\n<ul>\n<li><strong>32-Bit DSP Processor:</strong> Ensures intelligent battery management and high-speed processing for continuous uninterrupted power.</li>\n<li><strong>Backup Time Indicator:</strong> Intuitive display shows remaining backup hours and charging time in percentage.</li>\n<li><strong>Ecomode &amp; UPS Mode:</strong> Switchable operation mode for sensitive electronic devices.</li>\n</ul>\n<h3>Technical Specifications</h3>\n<ul>\n<li><strong>Brand:</strong> Luminous</li>\n<li><strong>Model:</strong> Zelio+ 1100</li>\n<li><strong>Capacity:</strong> 900VA / 12V</li>\n<li><strong>Supported Battery:</strong> 1x 12V Tubular / Flat / Gel Battery</li>\n<li><strong>Efficiency:</strong> &gt; 85%</li>\n</ul>\n<h3>Warranty &amp; Delivery</h3>\n<ul>\n<li><strong>Warranty:</strong> 2 Years Official Warranty</li>\n<li><strong>Delivery inside Dhaka:</strong> Delivered within 1-2 business days.</li>\n<li><strong>Delivery outside Dhaka:</strong> Delivered within 2-3 business days.</li>\n</ul>\n",
+    "short_description": "<p>Smart home IPS inverter with LED digital screen displaying remaining backup time, supports tubular/flat plate batteries, and 32-bit DSP processor.</p>\n",
+    "sku": "LUMINOUS-ZELIO-1100",
+    "price": "14200",
+    "regular_price": "15500",
+    "sale_price": "14200",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": true,
+    "purchasable": true,
+    "total_sales": 0,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": -1,
+    "download_expiry": -1,
+    "external_url": "",
+    "button_text": "",
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": true,
+    "stock_quantity": 23,
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "low_stock_amount": null,
+    "sold_individually": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_required": true,
+    "shipping_taxable": true,
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "reviews_allowed": true,
+    "average_rating": "0.00",
+    "rating_count": 0,
+    "upsell_ids": [],
+    "cross_sell_ids": [],
+    "parent_id": 0,
+    "purchase_note": "",
+    "categories": [
+      {
+        "id": 61,
+        "name": "IPS &amp; UPS",
+        "slug": "ips-ups"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "images": [
+      {
+        "id": 7662,
+        "date_created": "2026-09-30T06:58:45",
+        "date_created_gmt": "2026-09-30T06:58:45",
+        "date_modified": "2026-09-30T06:58:45",
+        "date_modified_gmt": "2026-09-30T06:58:45",
+        "src": "/products/7651-0.jpg",
+        "name": "luminous-zelio-1100",
+        "alt": "",
+        "srcset": "http://ips-hatt-01.local/wp-content/uploads/2026/09/luminous-zelio-1100.jpg 800w, http://ips-hatt-01.local/wp-content/uploads/2026/09/luminous-zelio-1100-300x300.jpg 300w, http://ips-hatt-01.local/wp-content/uploads/2026/09/luminous-zelio-1100-150x150.jpg 150w, http://ips-hatt-01.local/wp-content/uploads/2026/09/luminous-zelio-1100-768x768.jpg 768w, http://ips-hatt-01.local/wp-content/uploads/2026/09/luminous-zelio-1100-600x600.jpg 600w, http://ips-hatt-01.local/wp-content/uploads/2026/09/luminous-zelio-1100-100x100.jpg 100w",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "thumbnail": "http://ips-hatt-01.local/wp-content/uploads/2026/09/luminous-zelio-1100-300x300.jpg"
+      }
+    ],
+    "attributes": [],
+    "default_attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "menu_order": 0,
+    "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>15,500.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></del> <span class=\"screen-reader-text\">Original price was: 15,500.00&#2547;&nbsp;.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>14,200.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></ins><span class=\"screen-reader-text\">Current price is: 14,200.00&#2547;&nbsp;.</span>",
+    "related_ids": [
+      7650,
+      7652
+    ],
+    "meta_data": [
+      {
+        "id": 4365,
+        "key": "site-sidebar-layout",
+        "value": "default"
+      },
+      {
+        "id": 4367,
+        "key": "ast-site-content-layout",
+        "value": "default"
+      },
+      {
+        "id": 4368,
+        "key": "site-content-style",
+        "value": "default"
+      },
+      {
+        "id": 4369,
+        "key": "site-sidebar-style",
+        "value": "default"
+      },
+      {
+        "id": 4370,
+        "key": "theme-transparent-header-meta",
+        "value": "default"
+      },
+      {
+        "id": 4372,
+        "key": "astra-migrate-meta-layouts",
+        "value": "set"
+      }
+    ],
+    "stock_status": "instock",
+    "has_options": false,
+    "post_password": "",
+    "global_unique_id": "",
+    "_links": {
+      "self": [
+        {
+          "href": "http://ips-hatt-01.local/wp-json/wc/v3/products/7651",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://ips-hatt-01.local/wp-json/wc/v3/products"
+        }
+      ]
+    }
+  },
+  {
+    "id": 7650,
+    "name": "Smarten NOVA 1100VA Pure Sine Wave IPS Inverter",
+    "slug": "smarten-nova-1100va-pure-sine-wave-ips-inverter",
+    "permalink": "http://ips-hatt-01.local/product/smarten-nova-1100va-pure-sine-wave-ips-inverter/",
+    "date_created": "2026-09-30T06:39:46",
+    "date_created_gmt": "2026-09-30T06:39:46",
+    "date_modified": "2026-09-30T06:58:17",
+    "date_modified_gmt": "2026-09-30T06:58:17",
+    "type": "simple",
+    "status": "publish",
+    "featured": true,
+    "catalog_visibility": "visible",
+    "description": "<h3>Key Features</h3>\n<ul>\n<li><strong>Pure Sine Wave Output:</strong> Ensures complete noise-free and smooth operation of sensitive appliances like laptops, TVs, fans, and LED lights.</li>\n<li><strong>LCD Status Display:</strong> Displays battery percentage, load status, mains voltage, and error alerts in real-time.</li>\n<li><strong>Smart Battery Charging:</strong> Auto-senses battery health and adjusts charge speed to prolong battery lifespan.</li>\n</ul>\n<h3>Technical Specifications</h3>\n<ul>\n<li><strong>Brand:</strong> Smarten</li>\n<li><strong>Model:</strong> NOVA 1100VA</li>\n<li><strong>Capacity:</strong> 1100VA / 12V System</li>\n<li><strong>Output Waveform:</strong> Pure Sine Wave</li>\n<li><strong>Application:</strong> Home &amp; Office Emergency IPS Backup</li>\n</ul>\n<h3>Warranty &amp; Delivery</h3>\n<ul>\n<li><strong>Warranty:</strong> 2 Years Replacement Warranty</li>\n<li><strong>Delivery inside Dhaka:</strong> Delivered within 1-2 business days.</li>\n<li><strong>Delivery outside Dhaka:</strong> Delivered within 2-3 business days.</li>\n</ul>\n",
+    "short_description": "<p>Advanced 1100VA Pure Sine Wave IPS Inverter with smart LCD display, fast charging technology, and multi-stage protection for residential use.</p>\n",
+    "sku": "SMARTEN-NOVA-1100VA",
+    "price": "16800",
+    "regular_price": "18500",
+    "sale_price": "16800",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": true,
+    "purchasable": true,
+    "total_sales": 0,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": -1,
+    "download_expiry": -1,
+    "external_url": "",
+    "button_text": "",
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": true,
+    "stock_quantity": 20,
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "low_stock_amount": null,
+    "sold_individually": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_required": true,
+    "shipping_taxable": true,
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "reviews_allowed": true,
+    "average_rating": "0.00",
+    "rating_count": 0,
+    "upsell_ids": [],
+    "cross_sell_ids": [],
+    "parent_id": 0,
+    "purchase_note": "",
+    "categories": [
+      {
+        "id": 61,
+        "name": "IPS &amp; UPS",
+        "slug": "ips-ups"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "images": [
+      {
+        "id": 7661,
+        "date_created": "2026-09-30T06:58:07",
+        "date_created_gmt": "2026-09-30T06:58:07",
+        "date_modified": "2026-09-30T06:58:07",
+        "date_modified_gmt": "2026-09-30T06:58:07",
+        "src": "/products/7650-0.jpg",
+        "name": "smarten-nova-1100va",
+        "alt": "",
+        "srcset": "http://ips-hatt-01.local/wp-content/uploads/2026/09/smarten-nova-1100va.jpg 800w, http://ips-hatt-01.local/wp-content/uploads/2026/09/smarten-nova-1100va-300x300.jpg 300w, http://ips-hatt-01.local/wp-content/uploads/2026/09/smarten-nova-1100va-150x150.jpg 150w, http://ips-hatt-01.local/wp-content/uploads/2026/09/smarten-nova-1100va-768x768.jpg 768w, http://ips-hatt-01.local/wp-content/uploads/2026/09/smarten-nova-1100va-600x600.jpg 600w, http://ips-hatt-01.local/wp-content/uploads/2026/09/smarten-nova-1100va-100x100.jpg 100w",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "thumbnail": "http://ips-hatt-01.local/wp-content/uploads/2026/09/smarten-nova-1100va-300x300.jpg"
+      }
+    ],
+    "attributes": [],
+    "default_attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "menu_order": 0,
+    "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>18,500.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></del> <span class=\"screen-reader-text\">Original price was: 18,500.00&#2547;&nbsp;.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>16,800.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></ins><span class=\"screen-reader-text\">Current price is: 16,800.00&#2547;&nbsp;.</span>",
+    "related_ids": [
+      7652,
+      7651
+    ],
+    "meta_data": [
+      {
+        "id": 4352,
+        "key": "site-sidebar-layout",
+        "value": "default"
+      },
+      {
+        "id": 4354,
+        "key": "ast-site-content-layout",
+        "value": "default"
+      },
+      {
+        "id": 4355,
+        "key": "site-content-style",
+        "value": "default"
+      },
+      {
+        "id": 4356,
+        "key": "site-sidebar-style",
+        "value": "default"
+      },
+      {
+        "id": 4357,
+        "key": "theme-transparent-header-meta",
+        "value": "default"
+      },
+      {
+        "id": 4359,
+        "key": "astra-migrate-meta-layouts",
+        "value": "set"
+      }
+    ],
+    "stock_status": "instock",
+    "has_options": false,
+    "post_password": "",
+    "global_unique_id": "",
+    "_links": {
+      "self": [
+        {
+          "href": "http://ips-hatt-01.local/wp-json/wc/v3/products/7650",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://ips-hatt-01.local/wp-json/wc/v3/products"
+        }
+      ]
+    }
+  },
+  {
+    "id": 7649,
+    "name": "LVTOPSUN LVTS-256200 25.6V 200Ah 5.12KWh LiFePO4 Power Wall Battery",
+    "slug": "lvtopsun-lvts-256200-25-6v-200ah-5-12kwh-lifepo4-power-wall-battery",
+    "permalink": "http://ips-hatt-01.local/product/lvtopsun-lvts-256200-25-6v-200ah-5-12kwh-lifepo4-power-wall-battery/",
+    "date_created": "2026-09-30T06:39:46",
+    "date_created_gmt": "2026-09-30T06:39:46",
+    "date_modified": "2026-09-30T06:57:20",
+    "date_modified_gmt": "2026-09-30T06:57:20",
+    "type": "simple",
+    "status": "publish",
+    "featured": false,
+    "catalog_visibility": "visible",
+    "description": "<h3>Key Features</h3>\n<ul>\n<li><strong>Wall-Mounted Power Wall Design:</strong> Sleek space-saving cabinet design ideal for modern residential solar and IPS installations.</li>\n<li><strong>LiFePO4 Chemistry:</strong> Safe, long cycle life, and thermal stability.</li>\n<li><strong>LCD Screen Monitoring:</strong> Displays real-time operational status, voltage, and battery metrics.</li>\n</ul>\n<h3>Technical Specifications</h3>\n<ul>\n<li><strong>Brand:</strong> LVTOPSUN</li>\n<li><strong>Model:</strong> LVTS-256200</li>\n<li><strong>Voltage:</strong> 25.6V</li>\n<li><strong>Capacity:</strong> 200Ah</li>\n<li><strong>Total Energy:</strong> 5.12 kWh</li>\n<li><strong>Battery Type:</strong> LiFePO4 Power Wall</li>\n</ul>\n<h3>Warranty &amp; Delivery</h3>\n<ul>\n<li><strong>Warranty:</strong> 5 Years Official Warranty</li>\n<li><strong>Delivery inside Dhaka:</strong> Delivered within 1-2 business days.</li>\n<li><strong>Delivery outside Dhaka:</strong> Delivered within 2-3 business days.</li>\n</ul>\n",
+    "short_description": "<p>Wall-mounted 25.6V 200Ah LiFePO4 Lithium Power Wall battery with LCD monitor for compact and efficient home energy backup.</p>\n",
+    "sku": "LVTOPSUN-LVTS-256200",
+    "price": "150000",
+    "regular_price": "160000",
+    "sale_price": "150000",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": true,
+    "purchasable": true,
+    "total_sales": 0,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": -1,
+    "download_expiry": -1,
+    "external_url": "",
+    "button_text": "",
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": true,
+    "stock_quantity": 8,
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "low_stock_amount": null,
+    "sold_individually": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_required": true,
+    "shipping_taxable": true,
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "reviews_allowed": true,
+    "average_rating": "0.00",
+    "rating_count": 0,
+    "upsell_ids": [],
+    "cross_sell_ids": [],
+    "parent_id": 0,
+    "purchase_note": "",
+    "categories": [
+      {
+        "id": 59,
+        "name": "Lithium Battery",
+        "slug": "lithium-battery"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "images": [
+      {
+        "id": 7660,
+        "date_created": "2026-09-30T06:57:15",
+        "date_created_gmt": "2026-09-30T06:57:15",
+        "date_modified": "2026-09-30T06:57:15",
+        "date_modified_gmt": "2026-09-30T06:57:15",
+        "src": "/products/7649-0.jpg",
+        "name": "lvtopsun-25.6v-200ah",
+        "alt": "",
+        "srcset": "http://ips-hatt-01.local/wp-content/uploads/2026/09/lvtopsun-25.6v-200ah.jpg 800w, http://ips-hatt-01.local/wp-content/uploads/2026/09/lvtopsun-25.6v-200ah-300x300.jpg 300w, http://ips-hatt-01.local/wp-content/uploads/2026/09/lvtopsun-25.6v-200ah-150x150.jpg 150w, http://ips-hatt-01.local/wp-content/uploads/2026/09/lvtopsun-25.6v-200ah-768x768.jpg 768w, http://ips-hatt-01.local/wp-content/uploads/2026/09/lvtopsun-25.6v-200ah-600x600.jpg 600w, http://ips-hatt-01.local/wp-content/uploads/2026/09/lvtopsun-25.6v-200ah-100x100.jpg 100w",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "thumbnail": "http://ips-hatt-01.local/wp-content/uploads/2026/09/lvtopsun-25.6v-200ah-300x300.jpg"
+      }
+    ],
+    "attributes": [],
+    "default_attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "menu_order": 0,
+    "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>160,000.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></del> <span class=\"screen-reader-text\">Original price was: 160,000.00&#2547;&nbsp;.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>150,000.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></ins><span class=\"screen-reader-text\">Current price is: 150,000.00&#2547;&nbsp;.</span>",
+    "related_ids": [
+      7644,
+      7645,
+      7646
+    ],
+    "meta_data": [
+      {
+        "id": 4340,
+        "key": "site-sidebar-layout",
+        "value": "default"
+      },
+      {
+        "id": 4342,
+        "key": "ast-site-content-layout",
+        "value": "default"
+      },
+      {
+        "id": 4343,
+        "key": "site-content-style",
+        "value": "default"
+      },
+      {
+        "id": 4344,
+        "key": "site-sidebar-style",
+        "value": "default"
+      },
+      {
+        "id": 4345,
+        "key": "theme-transparent-header-meta",
+        "value": "default"
+      },
+      {
+        "id": 4346,
+        "key": "astra-migrate-meta-layouts",
+        "value": "set"
+      }
+    ],
+    "stock_status": "instock",
+    "has_options": false,
+    "post_password": "",
+    "global_unique_id": "",
+    "_links": {
+      "self": [
+        {
+          "href": "http://ips-hatt-01.local/wp-json/wc/v3/products/7649",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://ips-hatt-01.local/wp-json/wc/v3/products"
+        }
+      ]
+    }
+  },
+  {
+    "id": 7648,
+    "name": "Jinko 625W Bifacial Dual Glass N-Type Solar Panel (Tiger Neo)",
+    "slug": "jinko-625w-bifacial-dual-glass-n-type-solar-panel-tiger-neo",
+    "permalink": "http://ips-hatt-01.local/product/jinko-625w-bifacial-dual-glass-n-type-solar-panel-tiger-neo/",
+    "date_created": "2026-09-30T06:39:46",
+    "date_created_gmt": "2026-09-30T06:39:46",
+    "date_modified": "2026-09-30T06:56:39",
+    "date_modified_gmt": "2026-09-30T06:56:39",
+    "type": "simple",
+    "status": "publish",
+    "featured": true,
+    "catalog_visibility": "visible",
+    "description": "<h3>Key Features</h3>\n<ul>\n<li><strong>N-Type Monocrystalline Technology:</strong> Lower degradation rate and superior performance in high temperature and low light conditions.</li>\n<li><strong>Bifacial Power Generation:</strong> Dual glass construction generates power from both front and back sides (Bifacial Factor: 80±5%).</li>\n<li><strong>Heavy-Duty Build:</strong> 2.0mm anti-reflection front glass &amp; 2.0mm heat-strengthened back glass with IP68 junction box.</li>\n<li><strong>Exceptional Module Efficiency:</strong> High power output reaching up to 23.14% efficiency.</li>\n</ul>\n<h3>Technical Specifications</h3>\n<ul>\n<li><strong>Brand:</strong> Jinko Solar</li>\n<li><strong>Series:</strong> Tiger Neo N-Type (78HL4-BDV)</li>\n<li><strong>Cell Type:</strong> N-Type Monocrystalline | 132 Cells (6x22)</li>\n<li><strong>Power Output (Pmax):</strong> 615W - 625W</li>\n<li><strong>Module Efficiency:</strong> 23.14%</li>\n<li><strong>Voltage (Vmp / Voc):</strong> 40.88V / 49.28V</li>\n<li><strong>Current (Imp / Isc):</strong> 15.29A / 16.14A</li>\n<li><strong>Max System Voltage:</strong> 1500VDC (IEC)</li>\n<li><strong>Dimensions &amp; Weight:</strong> 2382 x 1134 x 30 mm | 32.4 kg</li>\n</ul>\n<h3>Warranty &amp; Delivery</h3>\n<ul>\n<li><strong>Warranty:</strong> 12-Year Product Warranty | 30-Year Linear Power Output Warranty</li>\n<li><strong>Delivery inside Dhaka:</strong> Delivered within 1-2 business days.</li>\n<li><strong>Delivery outside Dhaka:</strong> Delivered within 2-3 business days.</li>\n</ul>\n",
+    "short_description": "<p>High-efficiency 625W N-Type Monocrystalline Bifacial Solar Panel with dual-glass technology, 23.14% efficiency, and 30-year power warranty.</p>\n",
+    "sku": "JINKO-625W-BIFACIAL-DUAL",
+    "price": "14375",
+    "regular_price": "15625",
+    "sale_price": "14375",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": true,
+    "purchasable": true,
+    "total_sales": 0,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": -1,
+    "download_expiry": -1,
+    "external_url": "",
+    "button_text": "",
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": true,
+    "stock_quantity": 50,
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "low_stock_amount": null,
+    "sold_individually": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_required": true,
+    "shipping_taxable": true,
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "reviews_allowed": true,
+    "average_rating": "0.00",
+    "rating_count": 0,
+    "upsell_ids": [],
+    "cross_sell_ids": [],
+    "parent_id": 0,
+    "purchase_note": "",
+    "categories": [
+      {
+        "id": 60,
+        "name": "Solar Panels",
+        "slug": "solar-panels"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "images": [
+      {
+        "id": 7659,
+        "date_created": "2026-09-30T06:56:34",
+        "date_created_gmt": "2026-09-30T06:56:34",
+        "date_modified": "2026-09-30T06:56:34",
+        "date_modified_gmt": "2026-09-30T06:56:34",
+        "src": "/products/7648-0.jpg",
+        "name": "jinko-625w-bifacial",
+        "alt": "",
+        "srcset": "http://ips-hatt-01.local/wp-content/uploads/2026/09/jinko-625w-bifacial.jpg 800w, http://ips-hatt-01.local/wp-content/uploads/2026/09/jinko-625w-bifacial-300x300.jpg 300w, http://ips-hatt-01.local/wp-content/uploads/2026/09/jinko-625w-bifacial-150x150.jpg 150w, http://ips-hatt-01.local/wp-content/uploads/2026/09/jinko-625w-bifacial-768x768.jpg 768w, http://ips-hatt-01.local/wp-content/uploads/2026/09/jinko-625w-bifacial-600x600.jpg 600w, http://ips-hatt-01.local/wp-content/uploads/2026/09/jinko-625w-bifacial-100x100.jpg 100w",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "thumbnail": "http://ips-hatt-01.local/wp-content/uploads/2026/09/jinko-625w-bifacial-300x300.jpg"
+      }
+    ],
+    "attributes": [],
+    "default_attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "menu_order": 0,
+    "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>15,625.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></del> <span class=\"screen-reader-text\">Original price was: 15,625.00&#2547;&nbsp;.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>14,375.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></ins><span class=\"screen-reader-text\">Current price is: 14,375.00&#2547;&nbsp;.</span>",
+    "related_ids": [
+      7654
+    ],
+    "meta_data": [
+      {
+        "id": 4328,
+        "key": "site-sidebar-layout",
+        "value": "default"
+      },
+      {
+        "id": 4330,
+        "key": "ast-site-content-layout",
+        "value": "default"
+      },
+      {
+        "id": 4331,
+        "key": "site-content-style",
+        "value": "default"
+      },
+      {
+        "id": 4332,
+        "key": "site-sidebar-style",
+        "value": "default"
+      },
+      {
+        "id": 4333,
+        "key": "theme-transparent-header-meta",
+        "value": "default"
+      },
+      {
+        "id": 4334,
+        "key": "astra-migrate-meta-layouts",
+        "value": "set"
+      }
+    ],
+    "stock_status": "instock",
+    "has_options": false,
+    "post_password": "",
+    "global_unique_id": "",
+    "_links": {
+      "self": [
+        {
+          "href": "http://ips-hatt-01.local/wp-json/wc/v3/products/7648",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://ips-hatt-01.local/wp-json/wc/v3/products"
+        }
+      ]
+    }
+  },
+  {
+    "id": 7647,
+    "name": "Solis S6-EH1P 3K-L-PLUS Single Phase Low Voltage Energy Storage Inverter",
+    "slug": "solis-s6-eh1p-3k-l-plus-single-phase-low-voltage-energy-storage-inverter",
+    "permalink": "http://ips-hatt-01.local/product/solis-s6-eh1p-3k-l-plus-single-phase-low-voltage-energy-storage-inverter/",
+    "date_created": "2026-09-30T06:39:46",
+    "date_created_gmt": "2026-09-30T06:39:46",
+    "date_modified": "2026-09-30T15:36:54",
+    "date_modified_gmt": "2026-09-30T15:36:54",
+    "type": "simple",
+    "status": "publish",
+    "featured": true,
+    "catalog_visibility": "visible",
+    "description": "<h3>Key Features</h3>\n<ul>\n<li><strong>Generator Compatible:</strong> Extends backup duration during long grid outages by seamlessly integrating with diesel/gas generators.</li>\n<li><strong>Parallel Operation:</strong> Connect up to 6 units in parallel to form a scalable microgrid.</li>\n<li><strong>Dual Backup Ports:</strong> Intelligent load control for critical and non-critical loads.</li>\n<li><strong>Ultra-Fast Transfer Time:</strong> Less than 4ms automatic switchover time ensures zero interruption for sensitive electronics.</li>\n</ul>\n<h3>Technical Specifications</h3>\n<ul>\n<li><strong>Brand:</strong> Solis (Ginlong Technologies)</li>\n<li><strong>Model:</strong> S6-EH1P 3K-L-PLUS</li>\n<li><strong>Max. PV Array Size:</strong> 6 kW</li>\n<li><strong>Max. Charge/Discharge Power:</strong> 3 kW</li>\n<li><strong>Switchover Time:</strong> &lt; 4 ms (Automatic Switchover)</li>\n<li><strong>Parallel Capacity:</strong> Up to 6 Units</li>\n<li><strong>System Voltage:</strong> Low Voltage Single Phase</li>\n</ul>\n<h3>Warranty &amp; Delivery</h3>\n<ul>\n<li><strong>Warranty:</strong> 5 Years Official Manufacturer Warranty</li>\n<li><strong>Delivery inside Dhaka:</strong> Delivered within 1-2 business days.</li>\n<li><strong>Delivery outside Dhaka:</strong> Delivered within 2-3 business days.</li>\n</ul>\n",
+    "short_description": "<p>Next-generation 3kW hybrid solar inverter featuring fast transfer time (&lt;4ms), generator compatibility, parallel operation, and 5-year warranty.</p>\n",
+    "sku": "SOLIS-S6-EH1P-3K-L-PLUS",
+    "price": "118000",
+    "regular_price": "125000",
+    "sale_price": "118000",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": true,
+    "purchasable": true,
+    "total_sales": 0,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": -1,
+    "download_expiry": -1,
+    "external_url": "",
+    "button_text": "",
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": true,
+    "stock_quantity": 11,
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "low_stock_amount": null,
+    "sold_individually": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_required": true,
+    "shipping_taxable": true,
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "reviews_allowed": true,
+    "average_rating": "0.00",
+    "rating_count": 0,
+    "upsell_ids": [],
+    "cross_sell_ids": [],
+    "parent_id": 0,
+    "purchase_note": "",
+    "categories": [
+      {
+        "id": 57,
+        "name": "Solar Inverter",
+        "slug": "solar-inverter"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "images": [
+      {
+        "id": 7658,
+        "date_created": "2026-09-30T06:55:23",
+        "date_created_gmt": "2026-09-30T06:55:23",
+        "date_modified": "2026-09-30T06:55:23",
+        "date_modified_gmt": "2026-09-30T06:55:23",
+        "src": "/products/7647-0.jpg",
+        "name": "solis-s6-eh1p-3k",
+        "alt": "",
+        "srcset": "http://ips-hatt-01.local/wp-content/uploads/2026/09/solis-s6-eh1p-3k.jpg 800w, http://ips-hatt-01.local/wp-content/uploads/2026/09/solis-s6-eh1p-3k-300x300.jpg 300w, http://ips-hatt-01.local/wp-content/uploads/2026/09/solis-s6-eh1p-3k-150x150.jpg 150w, http://ips-hatt-01.local/wp-content/uploads/2026/09/solis-s6-eh1p-3k-768x768.jpg 768w, http://ips-hatt-01.local/wp-content/uploads/2026/09/solis-s6-eh1p-3k-600x600.jpg 600w, http://ips-hatt-01.local/wp-content/uploads/2026/09/solis-s6-eh1p-3k-100x100.jpg 100w",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "thumbnail": "http://ips-hatt-01.local/wp-content/uploads/2026/09/solis-s6-eh1p-3k-300x300.jpg"
+      }
+    ],
+    "attributes": [],
+    "default_attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "menu_order": 0,
+    "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>125,000.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></del> <span class=\"screen-reader-text\">Original price was: 125,000.00&#2547;&nbsp;.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>118,000.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></ins><span class=\"screen-reader-text\">Current price is: 118,000.00&#2547;&nbsp;.</span>",
+    "related_ids": [],
+    "meta_data": [
+      {
+        "id": 4315,
+        "key": "site-sidebar-layout",
+        "value": "default"
+      },
+      {
+        "id": 4317,
+        "key": "ast-site-content-layout",
+        "value": "default"
+      },
+      {
+        "id": 4318,
+        "key": "site-content-style",
+        "value": "default"
+      },
+      {
+        "id": 4319,
+        "key": "site-sidebar-style",
+        "value": "default"
+      },
+      {
+        "id": 4320,
+        "key": "theme-transparent-header-meta",
+        "value": "default"
+      },
+      {
+        "id": 4322,
+        "key": "astra-migrate-meta-layouts",
+        "value": "set"
+      }
+    ],
+    "stock_status": "instock",
+    "has_options": false,
+    "post_password": "",
+    "global_unique_id": "",
+    "_links": {
+      "self": [
+        {
+          "href": "http://ips-hatt-01.local/wp-json/wc/v3/products/7647",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://ips-hatt-01.local/wp-json/wc/v3/products"
+        }
+      ]
+    }
+  },
+  {
+    "id": 7646,
+    "name": "GROWATT HOPE 16.0LM-A1 Lithium Battery Storage System",
+    "slug": "growatt-hope-16-0lm-a1-lithium-battery-storage-system",
+    "permalink": "http://ips-hatt-01.local/product/growatt-hope-16-0lm-a1-lithium-battery-storage-system/",
+    "date_created": "2026-09-30T06:39:46",
+    "date_created_gmt": "2026-09-30T06:39:46",
+    "date_modified": "2026-10-03T08:20:29",
+    "date_modified_gmt": "2026-10-03T08:20:29",
+    "type": "simple",
+    "status": "publish",
+    "featured": true,
+    "catalog_visibility": "visible",
+    "description": "<h3>Key Features</h3>\n<ul>\n<li><strong>Scalable Capacity:</strong> Easily expandable from 16kWh up to 768kWh for large commercial or industrial setups.</li>\n<li><strong>Compact &amp; Mobile Design:</strong> Easy installation with built-in heavy-duty caster wheels for flexible mobility.</li>\n<li><strong>High Energy Density:</strong> High efficiency with reduced physical footprint.</li>\n<li><strong>Smart User Interface:</strong> Integrated color touch-screen display for real-time diagnostics and control.</li>\n</ul>\n<h3>Technical Specifications</h3>\n<ul>\n<li><strong>Brand:</strong> Growatt</li>\n<li><strong>Model:</strong> HOPE 16.0LM-A1</li>\n<li><strong>Battery Type:</strong> Lithium Battery Storage System</li>\n<li><strong>Base Capacity:</strong> 16.0 kWh (Expandable to 768 kWh)</li>\n<li><strong>Interface:</strong> Color Touch Screen Interface</li>\n<li><strong>Application:</strong> High-capacity residential, commercial, and industrial energy storage</li>\n</ul>\n<h3>Warranty &amp; Delivery</h3>\n<ul>\n<li><strong>Warranty:</strong> 10-Year Manufacturer Warranty</li>\n<li><strong>Delivery inside Dhaka:</strong> Delivered within 1-2 business days.</li>\n<li><strong>Delivery outside Dhaka:</strong> Delivered within 2-3 business days.</li>\n</ul>\n",
+    "short_description": "<p>Scalable, high-density smart lithium energy storage cabinet featuring user-friendly touch screen interface and scalable capacity up to 768kWh.</p>\n",
+    "sku": "GROWATT-HOPE-160LM-A1",
+    "price": "450000",
+    "regular_price": "480000",
+    "sale_price": "450000",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": true,
+    "purchasable": true,
+    "total_sales": 0,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": -1,
+    "download_expiry": -1,
+    "external_url": "",
+    "button_text": "",
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": true,
+    "stock_quantity": 0,
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "low_stock_amount": null,
+    "sold_individually": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_required": true,
+    "shipping_taxable": true,
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "reviews_allowed": true,
+    "average_rating": "0.00",
+    "rating_count": 0,
+    "upsell_ids": [],
+    "cross_sell_ids": [],
+    "parent_id": 0,
+    "purchase_note": "",
+    "categories": [
+      {
+        "id": 59,
+        "name": "Lithium Battery",
+        "slug": "lithium-battery"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "images": [
+      {
+        "id": 7657,
+        "date_created": "2026-09-30T06:54:45",
+        "date_created_gmt": "2026-09-30T06:54:45",
+        "date_modified": "2026-09-30T06:54:45",
+        "date_modified_gmt": "2026-09-30T06:54:45",
+        "src": "/products/7646-0.jpg",
+        "name": "growatt-hope-5.0l-b1",
+        "alt": "",
+        "srcset": "http://ips-hatt-01.local/wp-content/uploads/2026/09/growatt-hope-5.0l-b1.jpg 800w, http://ips-hatt-01.local/wp-content/uploads/2026/09/growatt-hope-5.0l-b1-300x300.jpg 300w, http://ips-hatt-01.local/wp-content/uploads/2026/09/growatt-hope-5.0l-b1-150x150.jpg 150w, http://ips-hatt-01.local/wp-content/uploads/2026/09/growatt-hope-5.0l-b1-768x768.jpg 768w, http://ips-hatt-01.local/wp-content/uploads/2026/09/growatt-hope-5.0l-b1-600x600.jpg 600w, http://ips-hatt-01.local/wp-content/uploads/2026/09/growatt-hope-5.0l-b1-100x100.jpg 100w",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "thumbnail": "http://ips-hatt-01.local/wp-content/uploads/2026/09/growatt-hope-5.0l-b1-300x300.jpg"
+      }
+    ],
+    "attributes": [],
+    "default_attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "menu_order": 0,
+    "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>480,000.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></del> <span class=\"screen-reader-text\">Original price was: 480,000.00&#2547;&nbsp;.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>450,000.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></ins><span class=\"screen-reader-text\">Current price is: 450,000.00&#2547;&nbsp;.</span>",
+    "related_ids": [
+      7644,
+      7649,
+      7645
+    ],
+    "meta_data": [
+      {
+        "id": 4303,
+        "key": "site-sidebar-layout",
+        "value": "default"
+      },
+      {
+        "id": 4305,
+        "key": "ast-site-content-layout",
+        "value": "default"
+      },
+      {
+        "id": 4306,
+        "key": "site-content-style",
+        "value": "default"
+      },
+      {
+        "id": 4307,
+        "key": "site-sidebar-style",
+        "value": "default"
+      },
+      {
+        "id": 4308,
+        "key": "theme-transparent-header-meta",
+        "value": "default"
+      },
+      {
+        "id": 4309,
+        "key": "astra-migrate-meta-layouts",
+        "value": "set"
+      }
+    ],
+    "stock_status": "outofstock",
+    "has_options": false,
+    "post_password": "",
+    "global_unique_id": "",
+    "_links": {
+      "self": [
+        {
+          "href": "http://ips-hatt-01.local/wp-json/wc/v3/products/7646",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://ips-hatt-01.local/wp-json/wc/v3/products"
+        }
+      ]
+    }
+  },
+  {
+    "id": 7645,
+    "name": "GENIXGREEN 51.2V 100Ah LiFePO4 Lithium Battery System",
+    "slug": "genixgreen-51-2v-100ah-lifepo4-lithium-battery-system",
+    "permalink": "http://ips-hatt-01.local/product/genixgreen-51-2v-100ah-lifepo4-lithium-battery-system/",
+    "date_created": "2026-09-30T06:39:46",
+    "date_created_gmt": "2026-09-30T06:39:46",
+    "date_modified": "2026-09-30T06:54:08",
+    "date_modified_gmt": "2026-09-30T06:54:08",
+    "type": "simple",
+    "status": "publish",
+    "featured": true,
+    "catalog_visibility": "visible",
+    "description": "<h3>Key Features</h3>\n<ul>\n<li><strong>High Efficiency &amp; Long Backup:</strong> Maximizes stored energy utilization with minimal power loss.</li>\n<li><strong>Smart BMS Protection:</strong> Built-in Battery Management System guarding against overcharge, deep discharge, short circuit, and temperature fluctuations.</li>\n<li><strong>Extended Cycle Life:</strong> Engineered for over 6000+ deep discharge cycles.</li>\n<li><strong>Eco-Friendly &amp; Safe:</strong> Non-toxic, clean energy solution for a greener tomorrow.</li>\n</ul>\n<h3>Technical Specifications</h3>\n<ul>\n<li><strong>Brand:</strong> GENIXGREEN</li>\n<li><strong>Nominal Voltage:</strong> 51.2V</li>\n<li><strong>Capacity:</strong> 100Ah</li>\n<li><strong>Battery Chemistry:</strong> LiFePO4 (Lithium Iron Phosphate)</li>\n<li><strong>Total Energy:</strong> 5.12 kWh</li>\n<li><strong>Display / Ports:</strong> Digital LCD Status Display, USB / RS485 / CAN communication ports</li>\n<li><strong>Protection:</strong> DELIXI Circuit Breaker / ON-OFF Switch integrated</li>\n</ul>\n<h3>Warranty &amp; Delivery</h3>\n<ul>\n<li><strong>Warranty:</strong> 5-Year Replacement Warranty</li>\n<li><strong>Delivery inside Dhaka:</strong> Delivered within 1-2 business days.</li>\n<li><strong>Delivery outside Dhaka:</strong> Delivered within 2-3 business days.</li>\n</ul>\n",
+    "short_description": "<p>High-efficiency 51.2V 100Ah Lithium Iron Phosphate battery system with integrated Smart BMS protection and long cycle life for home and solar setups.</p>\n",
+    "sku": "GENIXGREEN-51.2V-100AH",
+    "price": "155000",
+    "regular_price": "165000",
+    "sale_price": "155000",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": true,
+    "purchasable": true,
+    "total_sales": 0,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": -1,
+    "download_expiry": -1,
+    "external_url": "",
+    "button_text": "",
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": true,
+    "stock_quantity": 15,
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "low_stock_amount": null,
+    "sold_individually": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_required": true,
+    "shipping_taxable": true,
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "reviews_allowed": true,
+    "average_rating": "0.00",
+    "rating_count": 0,
+    "upsell_ids": [],
+    "cross_sell_ids": [],
+    "parent_id": 0,
+    "purchase_note": "",
+    "categories": [
+      {
+        "id": 59,
+        "name": "Lithium Battery",
+        "slug": "lithium-battery"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "images": [
+      {
+        "id": 7656,
+        "date_created": "2026-09-30T06:54:05",
+        "date_created_gmt": "2026-09-30T06:54:05",
+        "date_modified": "2026-09-30T06:54:05",
+        "date_modified_gmt": "2026-09-30T06:54:05",
+        "src": "/products/7645-0.jpg",
+        "name": "genixgreen-51.2v-100ah",
+        "alt": "",
+        "srcset": "http://ips-hatt-01.local/wp-content/uploads/2026/09/genixgreen-51.2v-100ah.jpg 800w, http://ips-hatt-01.local/wp-content/uploads/2026/09/genixgreen-51.2v-100ah-300x300.jpg 300w, http://ips-hatt-01.local/wp-content/uploads/2026/09/genixgreen-51.2v-100ah-150x150.jpg 150w, http://ips-hatt-01.local/wp-content/uploads/2026/09/genixgreen-51.2v-100ah-768x768.jpg 768w, http://ips-hatt-01.local/wp-content/uploads/2026/09/genixgreen-51.2v-100ah-600x600.jpg 600w, http://ips-hatt-01.local/wp-content/uploads/2026/09/genixgreen-51.2v-100ah-100x100.jpg 100w",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "thumbnail": "http://ips-hatt-01.local/wp-content/uploads/2026/09/genixgreen-51.2v-100ah-300x300.jpg"
+      }
+    ],
+    "attributes": [],
+    "default_attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "menu_order": 0,
+    "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>165,000.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></del> <span class=\"screen-reader-text\">Original price was: 165,000.00&#2547;&nbsp;.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>155,000.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></ins><span class=\"screen-reader-text\">Current price is: 155,000.00&#2547;&nbsp;.</span>",
+    "related_ids": [
+      7646,
+      7644,
+      7649
+    ],
+    "meta_data": [
+      {
+        "id": 4291,
+        "key": "site-sidebar-layout",
+        "value": "default"
+      },
+      {
+        "id": 4293,
+        "key": "ast-site-content-layout",
+        "value": "default"
+      },
+      {
+        "id": 4294,
+        "key": "site-content-style",
+        "value": "default"
+      },
+      {
+        "id": 4295,
+        "key": "site-sidebar-style",
+        "value": "default"
+      },
+      {
+        "id": 4296,
+        "key": "theme-transparent-header-meta",
+        "value": "default"
+      },
+      {
+        "id": 4297,
+        "key": "astra-migrate-meta-layouts",
+        "value": "set"
+      }
+    ],
+    "stock_status": "instock",
+    "has_options": false,
+    "post_password": "",
+    "global_unique_id": "",
+    "_links": {
+      "self": [
+        {
+          "href": "http://ips-hatt-01.local/wp-json/wc/v3/products/7645",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://ips-hatt-01.local/wp-json/wc/v3/products"
+        }
+      ]
+    }
+  },
+  {
+    "id": 7644,
+    "name": "GROWATT HOPE 5.0L-B1 High-Performance Lithium Battery",
+    "slug": "growatt-hope-5-0l-b1-high-performance-lithium-battery",
+    "permalink": "http://ips-hatt-01.local/product/growatt-hope-5-0l-b1-high-performance-lithium-battery/",
+    "date_created": "2026-09-30T06:39:45",
+    "date_created_gmt": "2026-09-30T06:39:45",
+    "date_modified": "2026-09-30T07:01:37",
+    "date_modified_gmt": "2026-09-30T07:01:37",
+    "type": "simple",
+    "status": "publish",
+    "featured": false,
+    "catalog_visibility": "visible",
+    "description": "<h3>Key Features</h3>\n<ul>\n<li><strong>Seamless Solar Integration:</strong> Effortlessly syncs with modern residential and commercial solar inverters.</li>\n<li><strong>Reliable Backup Power:</strong> Ensures uninterruptible power supply during grid outages.</li>\n<li><strong>Long-Lasting Performance:</strong> Premium grade LiFePO4 chemistry designed for high charge/discharge cycles.</li>\n<li><strong>Eco-Friendly Solution:</strong> Safe, sustainable energy storage technology.</li>\n</ul>\n<h3>Technical Specifications</h3>\n<ul>\n<li><strong>Brand:</strong> Growatt</li>\n<li><strong>Model:</strong> HOPE 5.0L-B1</li>\n<li><strong>Battery Type:</strong> High-Performance Lithium Battery (LiFePO4)</li>\n<li><strong>Nominal Capacity:</strong> 5.0 kWh</li>\n<li><strong>Application:</strong> Residential &amp; Commercial Energy Storage / Solar Backup</li>\n</ul>\n<h3>Warranty &amp; Delivery</h3>\n<ul>\n<li><strong>Warranty:</strong> 5-Year Standard Manufacturer Warranty</li>\n<li><strong>Delivery inside Dhaka:</strong> Delivered within 1-2 business days.</li>\n<li><strong>Delivery outside Dhaka:</strong> Delivered within 2-3 business days.</li>\n</ul>\n",
+    "short_description": "<p>Intelligent energy storage solution designed for reliable backup power, seamless solar integration, and long-lasting eco-friendly performance.</p>\n",
+    "sku": "GROWATT-HOPE-50L-B1",
+    "price": "175000",
+    "regular_price": "185000",
+    "sale_price": "175000",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": true,
+    "purchasable": true,
+    "total_sales": 0,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": -1,
+    "download_expiry": -1,
+    "external_url": "",
+    "button_text": "",
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": true,
+    "stock_quantity": 10,
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "low_stock_amount": null,
+    "sold_individually": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_required": true,
+    "shipping_taxable": true,
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "reviews_allowed": true,
+    "average_rating": "0.00",
+    "rating_count": 0,
+    "upsell_ids": [],
+    "cross_sell_ids": [],
+    "parent_id": 0,
+    "purchase_note": "",
+    "categories": [
+      {
+        "id": 59,
+        "name": "Lithium Battery",
+        "slug": "lithium-battery"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "images": [
+      {
+        "id": 7666,
+        "date_created": "2026-09-30T07:01:25",
+        "date_created_gmt": "2026-09-30T07:01:25",
+        "date_modified": "2026-09-30T07:01:25",
+        "date_modified_gmt": "2026-09-30T07:01:25",
+        "src": "/products/7644-0.jpg",
+        "name": "growatt-hope-16.0lm-a1",
+        "alt": "",
+        "srcset": "http://ips-hatt-01.local/wp-content/uploads/2026/09/growatt-hope-16.0lm-a1.jpg 800w, http://ips-hatt-01.local/wp-content/uploads/2026/09/growatt-hope-16.0lm-a1-300x300.jpg 300w, http://ips-hatt-01.local/wp-content/uploads/2026/09/growatt-hope-16.0lm-a1-150x150.jpg 150w, http://ips-hatt-01.local/wp-content/uploads/2026/09/growatt-hope-16.0lm-a1-768x768.jpg 768w, http://ips-hatt-01.local/wp-content/uploads/2026/09/growatt-hope-16.0lm-a1-600x600.jpg 600w, http://ips-hatt-01.local/wp-content/uploads/2026/09/growatt-hope-16.0lm-a1-100x100.jpg 100w",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "thumbnail": "http://ips-hatt-01.local/wp-content/uploads/2026/09/growatt-hope-16.0lm-a1-300x300.jpg"
+      }
+    ],
+    "attributes": [],
+    "default_attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "menu_order": 0,
+    "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>185,000.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></del> <span class=\"screen-reader-text\">Original price was: 185,000.00&#2547;&nbsp;.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>175,000.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></ins><span class=\"screen-reader-text\">Current price is: 175,000.00&#2547;&nbsp;.</span>",
+    "related_ids": [
+      7646,
+      7649,
+      7645
+    ],
+    "meta_data": [
+      {
+        "id": 4394,
+        "key": "site-sidebar-layout",
+        "value": "default"
+      },
+      {
+        "id": 4396,
+        "key": "ast-site-content-layout",
+        "value": "default"
+      },
+      {
+        "id": 4397,
+        "key": "site-content-style",
+        "value": "default"
+      },
+      {
+        "id": 4398,
+        "key": "site-sidebar-style",
+        "value": "default"
+      },
+      {
+        "id": 4399,
+        "key": "theme-transparent-header-meta",
+        "value": "default"
+      },
+      {
+        "id": 4401,
+        "key": "astra-migrate-meta-layouts",
+        "value": "set"
+      }
+    ],
+    "stock_status": "instock",
+    "has_options": false,
+    "post_password": "",
+    "global_unique_id": "",
+    "_links": {
+      "self": [
+        {
+          "href": "http://ips-hatt-01.local/wp-json/wc/v3/products/7644",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://ips-hatt-01.local/wp-json/wc/v3/products"
+        }
+      ]
+    }
+  }
+]

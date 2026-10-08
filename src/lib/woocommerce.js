@@ -1,42 +1,100 @@
-import WooCommerceRestApi from "@woocommerce/woocommerce-rest-api";
+// DEMO MODE: data local JSON file theke ashe, WordPress lagbe na.
+// Real backend e jete hole woocommerce.real.js ke eta-r jaygay copy korun.
+import productsData from "@/data/products.json";
+import categoriesData from "@/data/categories.json";
 
-const client = new WooCommerceRestApi({
-  url: process.env.NEXT_PUBLIC_WORDPRESS_SITE_URL,
-  consumerKey: process.env.WORDPRESS_CONSUMER_KEY,
-  consumerSecret: process.env.WORDPRESS_CONSUMER_SECRET,
-  version: "wc/v3",
-  axiosConfig: {
-    // Browser-er moto User-Agent, jate free hosting bot bhule block na kore
+const num = (v) => parseFloat(v) || 0;
+
+function listProducts(params = {}) {
+  let items = [...productsData];
+
+  if (params.slug) items = items.filter((p) => p.slug === params.slug);
+  if (params.search) {
+    const q = String(params.search).toLowerCase();
+    items = items.filter((p) => p.name.toLowerCase().includes(q));
+  }
+  if (params.category) {
+    const id = Number(params.category);
+    items = items.filter((p) => (p.categories || []).some((c) => c.id === id));
+  }
+  if (params.min_price)
+    items = items.filter((p) => num(p.price) >= num(params.min_price));
+  if (params.max_price)
+    items = items.filter((p) => num(p.price) <= num(params.max_price));
+  if (params.stock_status)
+    items = items.filter((p) => p.stock_status === params.stock_status);
+  if (params.featured !== undefined) {
+    const want = params.featured === true || params.featured === "true";
+    items = items.filter((p) => !!p.featured === want);
+  }
+  if (params.include) {
+    const ids = String(params.include).split(",").map(Number);
+    items = items.filter((p) => ids.includes(p.id));
+  }
+  if (params.exclude) {
+    const ids = String(params.exclude).split(",").map(Number);
+    items = items.filter((p) => !ids.includes(p.id));
+  }
+
+  // Sort
+  const dir = params.order === "asc" ? 1 : -1;
+  const keys = {
+    price: (p) => num(p.price),
+    title: (p) => p.name.toLowerCase(),
+    popularity: (p) => p.total_sales || 0,
+    date: (p) => p.date_created || "",
+  };
+  const key = keys[params.orderby] || keys.date;
+  items.sort((a, b) => (key(a) > key(b) ? 1 : key(a) < key(b) ? -1 : 0) * dir);
+
+  // Pagination
+  const perPage = Number(params.per_page) || 10;
+  const page = Number(params.page) || 1;
+  const total = items.length;
+  const totalPages = Math.max(1, Math.ceil(total / perPage));
+  if (page > 1 && page > totalPages) {
+    const err = new Error("invalid page");
+    err.response = { status: 400 };
+    throw err;
+  }
+  return {
+    data: items.slice((page - 1) * perPage, page * perPage),
     headers: {
-      "User-Agent":
-        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0 Safari/537.36",
+      "x-wp-total": String(total),
+      "x-wp-totalpages": String(totalPages),
     },
-  },
-});
+  };
+}
 
-// Proti request-e ?i=1 jog hobe (InfinityFree-r bot check skip korar jonno)
 export const api = {
-  get: (endpoint, params = {}) => client.get(endpoint, { ...params, i: 1 }),
-  post: (endpoint, data, params = {}) =>
-    client.post(endpoint, data, { ...params, i: 1 }),
-  put: (endpoint, data, params = {}) =>
-    client.put(endpoint, data, { ...params, i: 1 }),
-  delete: (endpoint, params = {}) =>
-    client.delete(endpoint, { ...params, i: 1 }),
+  async get(endpoint, params = {}) {
+    if (endpoint === "products") return listProducts(params);
+    if (endpoint === "products/categories")
+      return { data: categoriesData, headers: {} };
+    const m = endpoint.match(/^products\/(\d+)$/);
+    if (m) {
+      const p = productsData.find((x) => x.id === Number(m[1]));
+      if (p) return { data: p, headers: {} };
+    }
+    throw new Error(`Demo mode: "${endpoint}" not available yet`);
+  },
+  async post(endpoint) {
+    throw new Error(`Demo mode: cannot POST to ${endpoint}`);
+  },
+  async put(endpoint) {
+    throw new Error(`Demo mode: cannot PUT to ${endpoint}`);
+  },
+  async delete(endpoint) {
+    throw new Error(`Demo mode: cannot DELETE ${endpoint}`);
+  },
 };
 
 // Slug দিয়ে Single Product নিয়ে আসার ফাংশন
 export async function getProductBySlug(slug) {
   try {
-    const response = await api.get("products", {
-      slug: slug,
-    });
-
+    const response = await api.get("products", { slug });
     if (Array.isArray(response.data) && response.data.length > 0) {
       return response.data[0];
-    }
-    if (!Array.isArray(response.data)) {
-      console.error("Product not array:", String(response.data).slice(0, 200));
     }
     return null;
   } catch (error) {
