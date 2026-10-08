@@ -22,6 +22,9 @@ export const slugify = (s = "") =>
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-+|-+$/g, "");
 
+// API theke array na ashle faka list dey, build crash kore na
+const list = (d) => (Array.isArray(d) ? d : []);
+
 export async function getCategories() {
   try {
     const { data } = await api.get("products/categories", {
@@ -30,7 +33,11 @@ export async function getCategories() {
       orderby: "name",
       order: "asc",
     });
-    return (data || [])
+    // API block korle (HTML ashle) log-e dekha jabe
+    if (!Array.isArray(data)) {
+      console.error("Categories not array:", String(data).slice(0, 200));
+    }
+    return list(data)
       .filter((c) => c.slug !== "uncategorized")
       .map((c) => ({
         id: c.id,
@@ -80,7 +87,11 @@ export async function getShopProducts({
 
   try {
     const res = await api.get("products", params);
-    const products = res.data || [];
+    // API block korle (HTML ashle) log-e dekha jabe
+    if (!Array.isArray(res.data)) {
+      console.error("Products not array:", String(res.data).slice(0, 200));
+    }
+    const products = list(res.data);
     const h = res.headers || {};
     return {
       products,
