@@ -1,5 +1,156 @@
 [
   {
+    "id": 7677,
+    "name": "Sunshine 100W Mono Solar Panel 12V",
+    "slug": "sunshine-100w-mono-solar-panel-12v",
+    "permalink": "http://ips-hatt-01.local/product/sunshine-100w-mono-solar-panel-12v/",
+    "date_created": "2026-10-18T07:29:24",
+    "date_created_gmt": "2026-10-18T07:29:24",
+    "date_modified": "2026-10-18T07:36:27",
+    "date_modified_gmt": "2026-10-18T07:36:27",
+    "type": "simple",
+    "status": "publish",
+    "featured": false,
+    "catalog_visibility": "visible",
+    "description": "<p>Sunshine Solar 100W monocrystalline solar panel with German cells, made in China. Built with BC (back contact) solar cell technology for 23.3% cell efficiency and backed by a 25-year warranty.</p>\n<p>Specifications<br />\n- Brand: Sunshine Solar<br />\n- Cell type: Monocrystalline (German cell)<br />\n- Maximum power (Pmax): 100W<br />\n- Maximum power voltage (Vmp): 18V<br />\n- Maximum power current (Imp): 5.55A<br />\n- Open circuit voltage (Voc): 21.06V<br />\n- Short circuit current (Isc): 6.49A<br />\n- Maximum system voltage: 1500V<br />\n- Maximum series fuse: 25A<br />\n- Application class: Class A<br />\n- Power tolerance: 0 to +5W<br />\n- Dimension: 1200 x 580 x 30 mm<br />\n- Warranty: 25 years</p>\n",
+    "short_description": "<p>100W monocrystalline solar panel with German cells and BC cell technology. 23.3% cell efficiency and 25-year warranty. Suitable for 12V solar systems.</p>\n",
+    "sku": "SUNSHINE-100W-MONO",
+    "price": "2600",
+    "regular_price": "2600",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "purchasable": true,
+    "total_sales": 0,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": -1,
+    "download_expiry": -1,
+    "external_url": "",
+    "button_text": "",
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "low_stock_amount": null,
+    "sold_individually": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_required": true,
+    "shipping_taxable": true,
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "reviews_allowed": true,
+    "average_rating": "0.00",
+    "rating_count": 0,
+    "upsell_ids": [],
+    "cross_sell_ids": [],
+    "parent_id": 0,
+    "purchase_note": "",
+    "categories": [
+      {
+        "id": 60,
+        "name": "Solar Panels",
+        "slug": "solar-panels"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "images": [
+      {
+        "id": 7680,
+        "date_created": "2026-10-18T07:36:19",
+        "date_created_gmt": "2026-10-18T07:36:19",
+        "date_modified": "2026-10-18T07:36:19",
+        "date_modified_gmt": "2026-10-18T07:36:19",
+        "src": "/products/7677-0.png",
+        "name": "sunshine-100w-mono",
+        "alt": "",
+        "srcset": "http://ips-hatt-01.local/wp-content/uploads/2026/10/sunshine-100w-mono.png 800w, http://ips-hatt-01.local/wp-content/uploads/2026/10/sunshine-100w-mono-300x300.png 300w, http://ips-hatt-01.local/wp-content/uploads/2026/10/sunshine-100w-mono-150x150.png 150w, http://ips-hatt-01.local/wp-content/uploads/2026/10/sunshine-100w-mono-768x768.png 768w, http://ips-hatt-01.local/wp-content/uploads/2026/10/sunshine-100w-mono-600x600.png 600w, http://ips-hatt-01.local/wp-content/uploads/2026/10/sunshine-100w-mono-100x100.png 100w",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "thumbnail": "http://ips-hatt-01.local/wp-content/uploads/2026/10/sunshine-100w-mono-300x300.png"
+      }
+    ],
+    "attributes": [],
+    "default_attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "menu_order": 0,
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi>2,600.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span>",
+    "related_ids": [
+      7654,
+      7648
+    ],
+    "meta_data": [
+      {
+        "id": 4448,
+        "key": "site-sidebar-layout",
+        "value": "default"
+      },
+      {
+        "id": 4450,
+        "key": "ast-site-content-layout",
+        "value": "default"
+      },
+      {
+        "id": 4451,
+        "key": "site-content-style",
+        "value": "default"
+      },
+      {
+        "id": 4452,
+        "key": "site-sidebar-style",
+        "value": "default"
+      },
+      {
+        "id": 4453,
+        "key": "theme-transparent-header-meta",
+        "value": "default"
+      },
+      {
+        "id": 4454,
+        "key": "astra-migrate-meta-layouts",
+        "value": "set"
+      }
+    ],
+    "stock_status": "instock",
+    "has_options": false,
+    "post_password": "",
+    "global_unique_id": "",
+    "_links": {
+      "self": [
+        {
+          "href": "http://ips-hatt-01.local/wp-json/wc/v3/products/7677",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://ips-hatt-01.local/wp-json/wc/v3/products"
+        }
+      ]
+    }
+  },
+  {
     "id": 7654,
     "name": "LONG RAN GOLD N-Type Mono Solar Panel 12V 150W",
     "slug": "long-ran-gold-n-type-mono-solar-panel-12v-150w",
@@ -89,7 +240,8 @@
     "menu_order": 0,
     "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>4,200.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></del> <span class=\"screen-reader-text\">Original price was: 4,200.00&#2547;&nbsp;.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>3,800.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></ins><span class=\"screen-reader-text\">Current price is: 3,800.00&#2547;&nbsp;.</span>",
     "related_ids": [
-      7648
+      7648,
+      7677
     ],
     "meta_data": [
       {
@@ -239,8 +391,8 @@
     "menu_order": 0,
     "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>17,000.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></del> <span class=\"screen-reader-text\">Original price was: 17,000.00&#2547;&nbsp;.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>15,800.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></ins><span class=\"screen-reader-text\">Current price is: 15,800.00&#2547;&nbsp;.</span>",
     "related_ids": [
-      7650,
-      7651
+      7651,
+      7650
     ],
     "meta_data": [
       {
@@ -390,8 +542,8 @@
     "menu_order": 0,
     "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>15,500.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></del> <span class=\"screen-reader-text\">Original price was: 15,500.00&#2547;&nbsp;.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>14,200.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></ins><span class=\"screen-reader-text\">Current price is: 14,200.00&#2547;&nbsp;.</span>",
     "related_ids": [
-      7650,
-      7652
+      7652,
+      7650
     ],
     "meta_data": [
       {
@@ -693,8 +845,8 @@
     "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>160,000.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></del> <span class=\"screen-reader-text\">Original price was: 160,000.00&#2547;&nbsp;.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>150,000.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></ins><span class=\"screen-reader-text\">Current price is: 150,000.00&#2547;&nbsp;.</span>",
     "related_ids": [
       7644,
-      7645,
-      7646
+      7646,
+      7645
     ],
     "meta_data": [
       {
@@ -844,7 +996,8 @@
     "menu_order": 0,
     "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>15,625.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></del> <span class=\"screen-reader-text\">Original price was: 15,625.00&#2547;&nbsp;.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>14,375.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></ins><span class=\"screen-reader-text\">Current price is: 14,375.00&#2547;&nbsp;.</span>",
     "related_ids": [
-      7654
+      7654,
+      7677
     ],
     "meta_data": [
       {
@@ -1446,9 +1599,9 @@
     "menu_order": 0,
     "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>185,000.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></del> <span class=\"screen-reader-text\">Original price was: 185,000.00&#2547;&nbsp;.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>175,000.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></ins><span class=\"screen-reader-text\">Current price is: 175,000.00&#2547;&nbsp;.</span>",
     "related_ids": [
+      7645,
       7646,
-      7649,
-      7645
+      7649
     ],
     "meta_data": [
       {
