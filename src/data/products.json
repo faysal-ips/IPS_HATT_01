@@ -1,5 +1,467 @@
 [
   {
+    "id": 7689,
+    "name": "Hamko Combo Green 1300VA Pure Sine Wave IPS",
+    "slug": "hamko-combo-green-1300va-pure-sine-wave-ips",
+    "permalink": "http://ips-hatt-01.local/product/hamko-combo-green-1300va-pure-sine-wave-ips/",
+    "date_created": "2026-10-28T05:02:24",
+    "date_created_gmt": "2026-10-28T05:02:24",
+    "date_modified": "2026-10-28T05:10:29",
+    "date_modified_gmt": "2026-10-28T05:10:29",
+    "type": "simple",
+    "status": "publish",
+    "featured": false,
+    "catalog_visibility": "visible",
+    "description": "<p>Hamko Combo Green 1300VA is a pure sine wave IPS cum UPS for reliable power backup at home and in small offices. The pure sine wave output is safe for sensitive electronics like computers, TVs and medical devices.</p>\n<p>Key features<br />\n- 1300VA capacity keeps your devices running during long power cuts<br />\n- Sine wave technology for clean and steady power output<br />\n- High efficiency that helps cut energy use and heat<br />\n- Auto-bypass: switches back to the main power supply once the battery is fully charged<br />\n- Compact design for homes and offices where space is tight<br />\n- Dependable backup power from the battery</p>\n<p>Specifications<br />\n- Brand: Hamko<br />\n- Model: Combo Green-1300VA<br />\n- Inverter capacity: 1300VA<br />\n- Inverter rated power: 975W<br />\n- Frequency: 50Hz<br />\n- Battery capacity: 100-200Ah<br />\n- Overloading protection: Yes<br />\n- Overcharging protection: Automatic<br />\n- Short circuit protection: Instant<br />\n- Output: Pure sine wave<br />\n- Display: LCD<br />\n- Input voltage: 200V-240V</p>\n",
+    "short_description": "<p>Hamko Combo Green 1300VA pure sine wave IPS cum UPS with 975W rated power and LCD display. Supports 100-200Ah batteries.</p>\n",
+    "sku": "HAMKO-COMBO-GREEN-1300VA",
+    "price": "13800",
+    "regular_price": "16800",
+    "sale_price": "13800",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": true,
+    "purchasable": true,
+    "total_sales": 0,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": -1,
+    "download_expiry": -1,
+    "external_url": "",
+    "button_text": "",
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "low_stock_amount": null,
+    "sold_individually": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_required": true,
+    "shipping_taxable": true,
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "reviews_allowed": true,
+    "average_rating": "0.00",
+    "rating_count": 0,
+    "upsell_ids": [],
+    "cross_sell_ids": [],
+    "parent_id": 0,
+    "purchase_note": "",
+    "categories": [
+      {
+        "id": 61,
+        "name": "IPS &amp; UPS",
+        "slug": "ips-ups"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "images": [
+      {
+        "id": 7692,
+        "date_created": "2026-10-28T05:05:38",
+        "date_created_gmt": "2026-10-28T05:05:38",
+        "date_modified": "2026-10-28T05:05:38",
+        "date_modified_gmt": "2026-10-28T05:05:38",
+        "src": "/products/7689-0.png",
+        "name": "hamko-combo-green-1300va",
+        "alt": "",
+        "srcset": "http://ips-hatt-01.local/wp-content/uploads/2026/10/hamko-combo-green-1300va.png 800w, http://ips-hatt-01.local/wp-content/uploads/2026/10/hamko-combo-green-1300va-300x300.png 300w, http://ips-hatt-01.local/wp-content/uploads/2026/10/hamko-combo-green-1300va-150x150.png 150w, http://ips-hatt-01.local/wp-content/uploads/2026/10/hamko-combo-green-1300va-768x768.png 768w, http://ips-hatt-01.local/wp-content/uploads/2026/10/hamko-combo-green-1300va-600x600.png 600w, http://ips-hatt-01.local/wp-content/uploads/2026/10/hamko-combo-green-1300va-100x100.png 100w",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "thumbnail": "http://ips-hatt-01.local/wp-content/uploads/2026/10/hamko-combo-green-1300va-300x300.png"
+      }
+    ],
+    "attributes": [],
+    "default_attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "menu_order": 0,
+    "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>16,800.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></del> <span class=\"screen-reader-text\">Original price was: 16,800.00&#2547;&nbsp;.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>13,800.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></ins><span class=\"screen-reader-text\">Current price is: 13,800.00&#2547;&nbsp;.</span>",
+    "related_ids": [
+      7688,
+      7687,
+      7651,
+      7652,
+      7650
+    ],
+    "meta_data": [
+      {
+        "id": 4566,
+        "key": "site-sidebar-layout",
+        "value": "default"
+      },
+      {
+        "id": 4568,
+        "key": "ast-site-content-layout",
+        "value": "default"
+      },
+      {
+        "id": 4569,
+        "key": "site-content-style",
+        "value": "default"
+      },
+      {
+        "id": 4570,
+        "key": "site-sidebar-style",
+        "value": "default"
+      },
+      {
+        "id": 4571,
+        "key": "theme-transparent-header-meta",
+        "value": "default"
+      },
+      {
+        "id": 4572,
+        "key": "astra-migrate-meta-layouts",
+        "value": "set"
+      }
+    ],
+    "stock_status": "instock",
+    "has_options": false,
+    "post_password": "",
+    "global_unique_id": "",
+    "_links": {
+      "self": [
+        {
+          "href": "http://ips-hatt-01.local/wp-json/wc/v3/products/7689",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://ips-hatt-01.local/wp-json/wc/v3/products"
+        }
+      ]
+    }
+  },
+  {
+    "id": 7688,
+    "name": "Hamko Combo Green 900VA Pure Sine Wave IPS",
+    "slug": "hamko-combo-green-900va-pure-sine-wave-ips",
+    "permalink": "http://ips-hatt-01.local/product/hamko-combo-green-900va-pure-sine-wave-ips/",
+    "date_created": "2026-10-28T05:02:24",
+    "date_created_gmt": "2026-10-28T05:02:24",
+    "date_modified": "2026-10-28T05:06:38",
+    "date_modified_gmt": "2026-10-28T05:06:38",
+    "type": "simple",
+    "status": "publish",
+    "featured": false,
+    "catalog_visibility": "visible",
+    "description": "<p>Hamko Combo Green 900VA is a pure sine wave IPS cum UPS for reliable power backup at home and in small offices. The pure sine wave output is safe for sensitive electronics like computers, TVs and medical devices.</p>\n<p>Key features<br />\n- Dual mode: UPS mode for sensitive equipment such as computers, IPS mode for household devices<br />\n- Sine wave technology for clean and stable power output<br />\n- Auto-bypass: switches back to the main power supply once the battery is fully charged<br />\n- Compact design that fits in a corner or behind a desk<br />\n- Easy installation, simple to set up right out of the box</p>\n<p>Specifications<br />\n- Brand: Hamko<br />\n- Model: Combo Green-900VA<br />\n- Inverter capacity: 900VA<br />\n- Inverter rated power: 600W<br />\n- Frequency: 50Hz<br />\n- Battery capacity: 100-200Ah<br />\n- Overloading protection: 10% overload<br />\n- Overcharging protection: Automatic<br />\n- Short circuit protection: Yes<br />\n- Output: Pure sine wave<br />\n- Display: LCD<br />\n- Input voltage: 200-240V</p>\n",
+    "short_description": "<p>Hamko Combo Green 900VA pure sine wave IPS cum UPS with 600W rated power and LCD display. Supports 100-200Ah batteries.</p>\n",
+    "sku": "HAMKO-COMBO-GREEN-900VA",
+    "price": "11000",
+    "regular_price": "11000",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "purchasable": true,
+    "total_sales": 0,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": -1,
+    "download_expiry": -1,
+    "external_url": "",
+    "button_text": "",
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "low_stock_amount": null,
+    "sold_individually": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_required": true,
+    "shipping_taxable": true,
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "reviews_allowed": true,
+    "average_rating": "0.00",
+    "rating_count": 0,
+    "upsell_ids": [],
+    "cross_sell_ids": [],
+    "parent_id": 0,
+    "purchase_note": "",
+    "categories": [
+      {
+        "id": 61,
+        "name": "IPS &amp; UPS",
+        "slug": "ips-ups"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "images": [
+      {
+        "id": 7691,
+        "date_created": "2026-10-28T05:05:36",
+        "date_created_gmt": "2026-10-28T05:05:36",
+        "date_modified": "2026-10-28T05:05:36",
+        "date_modified_gmt": "2026-10-28T05:05:36",
+        "src": "/products/7688-0.png",
+        "name": "hamko-combo-green-900va",
+        "alt": "",
+        "srcset": "http://ips-hatt-01.local/wp-content/uploads/2026/10/hamko-combo-green-900va.png 800w, http://ips-hatt-01.local/wp-content/uploads/2026/10/hamko-combo-green-900va-300x300.png 300w, http://ips-hatt-01.local/wp-content/uploads/2026/10/hamko-combo-green-900va-150x150.png 150w, http://ips-hatt-01.local/wp-content/uploads/2026/10/hamko-combo-green-900va-768x768.png 768w, http://ips-hatt-01.local/wp-content/uploads/2026/10/hamko-combo-green-900va-600x600.png 600w, http://ips-hatt-01.local/wp-content/uploads/2026/10/hamko-combo-green-900va-100x100.png 100w",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "thumbnail": "http://ips-hatt-01.local/wp-content/uploads/2026/10/hamko-combo-green-900va-300x300.png"
+      }
+    ],
+    "attributes": [],
+    "default_attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "menu_order": 0,
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi>11,000.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span>",
+    "related_ids": [
+      7650,
+      7689,
+      7687,
+      7651,
+      7652
+    ],
+    "meta_data": [
+      {
+        "id": 4551,
+        "key": "site-sidebar-layout",
+        "value": "default"
+      },
+      {
+        "id": 4553,
+        "key": "ast-site-content-layout",
+        "value": "default"
+      },
+      {
+        "id": 4554,
+        "key": "site-content-style",
+        "value": "default"
+      },
+      {
+        "id": 4555,
+        "key": "site-sidebar-style",
+        "value": "default"
+      },
+      {
+        "id": 4556,
+        "key": "theme-transparent-header-meta",
+        "value": "default"
+      },
+      {
+        "id": 4559,
+        "key": "astra-migrate-meta-layouts",
+        "value": "set"
+      }
+    ],
+    "stock_status": "instock",
+    "has_options": false,
+    "post_password": "",
+    "global_unique_id": "",
+    "_links": {
+      "self": [
+        {
+          "href": "http://ips-hatt-01.local/wp-json/wc/v3/products/7688",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://ips-hatt-01.local/wp-json/wc/v3/products"
+        }
+      ]
+    }
+  },
+  {
+    "id": 7687,
+    "name": "Hamko Combo Green 700VA Pure Sine Wave IPS",
+    "slug": "hamko-combo-green-700va-pure-sine-wave-ips",
+    "permalink": "http://ips-hatt-01.local/product/hamko-combo-green-700va-pure-sine-wave-ips/",
+    "date_created": "2026-10-28T05:02:23",
+    "date_created_gmt": "2026-10-28T05:02:23",
+    "date_modified": "2026-10-28T05:06:05",
+    "date_modified_gmt": "2026-10-28T05:06:05",
+    "type": "simple",
+    "status": "publish",
+    "featured": false,
+    "catalog_visibility": "visible",
+    "description": "<p>Hamko Combo Green 700VA is a pure sine wave IPS cum UPS for reliable power backup at home and in small offices. The pure sine wave output is safe for sensitive electronics like computers, TVs and medical devices.</p>\n<p>Key features<br />\n- Dual mode: UPS mode for sensitive equipment such as computers, IPS mode for household devices<br />\n- Sine wave technology for clean and stable power output<br />\n- Auto-bypass: switches back to the main power supply once the battery is fully charged<br />\n- Compact design that fits in a corner or behind a desk<br />\n- Easy installation, simple to set up right out of the box</p>\n<p>Specifications<br />\n- Brand: Hamko<br />\n- Model: Combo Green-700VA<br />\n- Inverter capacity: 700VA<br />\n- Inverter rated power: 525W<br />\n- Frequency: 50Hz<br />\n- Battery capacity: 100-200Ah<br />\n- Overloading protection: 10% overload<br />\n- Overcharging protection: Automatic<br />\n- Short circuit protection: Yes<br />\n- Output: Pure sine wave<br />\n- Display: LCD<br />\n- Input voltage: 200-240V</p>\n",
+    "short_description": "<p>Hamko Combo Green 700VA pure sine wave IPS cum UPS with 525W rated power and LCD display. Supports 100-200Ah batteries.</p>\n",
+    "sku": "HAMKO-COMBO-GREEN-700VA",
+    "price": "10000",
+    "regular_price": "10000",
+    "sale_price": "",
+    "date_on_sale_from": null,
+    "date_on_sale_from_gmt": null,
+    "date_on_sale_to": null,
+    "date_on_sale_to_gmt": null,
+    "on_sale": false,
+    "purchasable": true,
+    "total_sales": 0,
+    "virtual": false,
+    "downloadable": false,
+    "downloads": [],
+    "download_limit": -1,
+    "download_expiry": -1,
+    "external_url": "",
+    "button_text": "",
+    "tax_status": "taxable",
+    "tax_class": "",
+    "manage_stock": false,
+    "stock_quantity": null,
+    "backorders": "no",
+    "backorders_allowed": false,
+    "backordered": false,
+    "low_stock_amount": null,
+    "sold_individually": false,
+    "weight": "",
+    "dimensions": {
+      "length": "",
+      "width": "",
+      "height": ""
+    },
+    "shipping_required": true,
+    "shipping_taxable": true,
+    "shipping_class": "",
+    "shipping_class_id": 0,
+    "reviews_allowed": true,
+    "average_rating": "0.00",
+    "rating_count": 0,
+    "upsell_ids": [],
+    "cross_sell_ids": [],
+    "parent_id": 0,
+    "purchase_note": "",
+    "categories": [
+      {
+        "id": 61,
+        "name": "IPS &amp; UPS",
+        "slug": "ips-ups"
+      }
+    ],
+    "brands": [],
+    "tags": [],
+    "images": [
+      {
+        "id": 7690,
+        "date_created": "2026-10-28T05:05:35",
+        "date_created_gmt": "2026-10-28T05:05:35",
+        "date_modified": "2026-10-28T05:05:35",
+        "date_modified_gmt": "2026-10-28T05:05:35",
+        "src": "/products/7687-0.png",
+        "name": "hamko-combo-green-700va",
+        "alt": "",
+        "srcset": "http://ips-hatt-01.local/wp-content/uploads/2026/10/hamko-combo-green-700va.png 800w, http://ips-hatt-01.local/wp-content/uploads/2026/10/hamko-combo-green-700va-300x300.png 300w, http://ips-hatt-01.local/wp-content/uploads/2026/10/hamko-combo-green-700va-150x150.png 150w, http://ips-hatt-01.local/wp-content/uploads/2026/10/hamko-combo-green-700va-768x768.png 768w, http://ips-hatt-01.local/wp-content/uploads/2026/10/hamko-combo-green-700va-600x600.png 600w, http://ips-hatt-01.local/wp-content/uploads/2026/10/hamko-combo-green-700va-100x100.png 100w",
+        "sizes": "(max-width: 800px) 100vw, 800px",
+        "thumbnail": "http://ips-hatt-01.local/wp-content/uploads/2026/10/hamko-combo-green-700va-300x300.png"
+      }
+    ],
+    "attributes": [],
+    "default_attributes": [],
+    "variations": [],
+    "grouped_products": [],
+    "menu_order": 0,
+    "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi>10,000.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span>",
+    "related_ids": [
+      7688,
+      7689,
+      7651,
+      7652,
+      7650
+    ],
+    "meta_data": [
+      {
+        "id": 4542,
+        "key": "site-sidebar-layout",
+        "value": "default"
+      },
+      {
+        "id": 4544,
+        "key": "ast-site-content-layout",
+        "value": "default"
+      },
+      {
+        "id": 4545,
+        "key": "site-content-style",
+        "value": "default"
+      },
+      {
+        "id": 4546,
+        "key": "site-sidebar-style",
+        "value": "default"
+      },
+      {
+        "id": 4547,
+        "key": "theme-transparent-header-meta",
+        "value": "default"
+      },
+      {
+        "id": 4548,
+        "key": "astra-migrate-meta-layouts",
+        "value": "set"
+      }
+    ],
+    "stock_status": "instock",
+    "has_options": false,
+    "post_password": "",
+    "global_unique_id": "",
+    "_links": {
+      "self": [
+        {
+          "href": "http://ips-hatt-01.local/wp-json/wc/v3/products/7687",
+          "targetHints": {
+            "allow": [
+              "GET",
+              "POST",
+              "PUT",
+              "PATCH",
+              "DELETE"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "http://ips-hatt-01.local/wp-json/wc/v3/products"
+        }
+      ]
+    }
+  },
+  {
     "id": 7678,
     "name": "Longi 225W 12V Solar Panel",
     "slug": "longi-225w-12v-solar-panel",
@@ -241,8 +703,8 @@
     "menu_order": 0,
     "price_html": "<span class=\"woocommerce-Price-amount amount\"><bdi>2,600.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span>",
     "related_ids": [
-      7678,
       7654,
+      7678,
       7648
     ],
     "meta_data": [
@@ -393,8 +855,8 @@
     "menu_order": 0,
     "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>4,200.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></del> <span class=\"screen-reader-text\">Original price was: 4,200.00&#2547;&nbsp;.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>3,800.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></ins><span class=\"screen-reader-text\">Current price is: 3,800.00&#2547;&nbsp;.</span>",
     "related_ids": [
-      7648,
       7677,
+      7648,
       7678
     ],
     "meta_data": [
@@ -546,7 +1008,10 @@
     "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>17,000.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></del> <span class=\"screen-reader-text\">Original price was: 17,000.00&#2547;&nbsp;.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>15,800.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></ins><span class=\"screen-reader-text\">Current price is: 15,800.00&#2547;&nbsp;.</span>",
     "related_ids": [
       7651,
-      7650
+      7689,
+      7688,
+      7650,
+      7687
     ],
     "meta_data": [
       {
@@ -608,18 +1073,18 @@
   },
   {
     "id": 7651,
-    "name": "Luminous Zelio+ 1100 Pure Sine Wave Home IPS Inverter",
+    "name": "Luminous EVO 1050  UPS mode Appliance mode",
     "slug": "luminous-zelio-1100-pure-sine-wave-home-ips-inverter",
     "permalink": "http://ips-hatt-01.local/product/luminous-zelio-1100-pure-sine-wave-home-ips-inverter/",
     "date_created": "2026-09-30T06:39:46",
     "date_created_gmt": "2026-09-30T06:39:46",
-    "date_modified": "2026-10-01T04:05:32",
-    "date_modified_gmt": "2026-10-01T04:05:32",
+    "date_modified": "2026-10-28T04:13:34",
+    "date_modified_gmt": "2026-10-28T04:13:34",
     "type": "simple",
     "status": "publish",
     "featured": true,
     "catalog_visibility": "visible",
-    "description": "<h3>Key Features</h3>\n<ul>\n<li><strong>32-Bit DSP Processor:</strong> Ensures intelligent battery management and high-speed processing for continuous uninterrupted power.</li>\n<li><strong>Backup Time Indicator:</strong> Intuitive display shows remaining backup hours and charging time in percentage.</li>\n<li><strong>Ecomode &amp; UPS Mode:</strong> Switchable operation mode for sensitive electronic devices.</li>\n</ul>\n<h3>Technical Specifications</h3>\n<ul>\n<li><strong>Brand:</strong> Luminous</li>\n<li><strong>Model:</strong> Zelio+ 1100</li>\n<li><strong>Capacity:</strong> 900VA / 12V</li>\n<li><strong>Supported Battery:</strong> 1x 12V Tubular / Flat / Gel Battery</li>\n<li><strong>Efficiency:</strong> &gt; 85%</li>\n</ul>\n<h3>Warranty &amp; Delivery</h3>\n<ul>\n<li><strong>Warranty:</strong> 2 Years Official Warranty</li>\n<li><strong>Delivery inside Dhaka:</strong> Delivered within 1-2 business days.</li>\n<li><strong>Delivery outside Dhaka:</strong> Delivered within 2-3 business days.</li>\n</ul>\n",
+    "description": "<h3>Key Features</h3>\n<ul>\n<li><strong>32-Bit DSP Processor:</strong> Ensures intelligent battery management and high-speed processing for continuous uninterrupted power.</li>\n<li><strong>Backup Time Indicator:</strong> Intuitive display shows remaining backup hours and charging time in percentage.</li>\n<li><strong>Ecomode &amp; UPS Mode:</strong> Switchable operation mode for sensitive electronic devices.</li>\n</ul>\n<h3>Technical Specifications</h3>\n<ul>\n<li><strong>Brand:</strong> Luminous</li>\n<li><strong>Model:</strong> Luminous EVO 1050</li>\n<li><strong>Capacity:</strong> 900VA / 12V</li>\n<li><strong>Supported Battery:</strong> 1x 12V Tubular / Flat / Gel Battery</li>\n<li><strong>Efficiency:</strong> &gt; 85%</li>\n</ul>\n<h3>Warranty &amp; Delivery</h3>\n<ul>\n<li><strong>Warranty:</strong> 2 Years Official Warranty</li>\n<li><strong>Delivery inside Dhaka:</strong> Delivered within 1-2 business days.</li>\n<li><strong>Delivery outside Dhaka:</strong> Delivered within 2-3 business days.</li>\n</ul>\n",
     "short_description": "<p>Smart home IPS inverter with LED digital screen displaying remaining backup time, supports tubular/flat plate batteries, and 32-bit DSP processor.</p>\n",
     "sku": "LUMINOUS-ZELIO-1100",
     "price": "14200",
@@ -676,17 +1141,17 @@
     "tags": [],
     "images": [
       {
-        "id": 7662,
-        "date_created": "2026-09-30T06:58:45",
-        "date_created_gmt": "2026-09-30T06:58:45",
-        "date_modified": "2026-09-30T06:58:45",
-        "date_modified_gmt": "2026-09-30T06:58:45",
-        "src": "/products/7651-0.jpg",
-        "name": "luminous-zelio-1100",
+        "id": 7685,
+        "date_created": "2026-10-28T04:13:24",
+        "date_created_gmt": "2026-10-28T04:13:24",
+        "date_modified": "2026-10-28T04:13:24",
+        "date_modified_gmt": "2026-10-28T04:13:24",
+        "src": "/products/7651-0.png",
+        "name": "luminous-evo-1050",
         "alt": "",
-        "srcset": "http://ips-hatt-01.local/wp-content/uploads/2026/09/luminous-zelio-1100.jpg 800w, http://ips-hatt-01.local/wp-content/uploads/2026/09/luminous-zelio-1100-300x300.jpg 300w, http://ips-hatt-01.local/wp-content/uploads/2026/09/luminous-zelio-1100-150x150.jpg 150w, http://ips-hatt-01.local/wp-content/uploads/2026/09/luminous-zelio-1100-768x768.jpg 768w, http://ips-hatt-01.local/wp-content/uploads/2026/09/luminous-zelio-1100-600x600.jpg 600w, http://ips-hatt-01.local/wp-content/uploads/2026/09/luminous-zelio-1100-100x100.jpg 100w",
+        "srcset": "http://ips-hatt-01.local/wp-content/uploads/2026/09/luminous-evo-1050.png 800w, http://ips-hatt-01.local/wp-content/uploads/2026/09/luminous-evo-1050-300x300.png 300w, http://ips-hatt-01.local/wp-content/uploads/2026/09/luminous-evo-1050-150x150.png 150w, http://ips-hatt-01.local/wp-content/uploads/2026/09/luminous-evo-1050-768x768.png 768w, http://ips-hatt-01.local/wp-content/uploads/2026/09/luminous-evo-1050-600x600.png 600w, http://ips-hatt-01.local/wp-content/uploads/2026/09/luminous-evo-1050-100x100.png 100w",
         "sizes": "(max-width: 800px) 100vw, 800px",
-        "thumbnail": "http://ips-hatt-01.local/wp-content/uploads/2026/09/luminous-zelio-1100-300x300.jpg"
+        "thumbnail": "http://ips-hatt-01.local/wp-content/uploads/2026/09/luminous-evo-1050-300x300.png"
       }
     ],
     "attributes": [],
@@ -696,8 +1161,11 @@
     "menu_order": 0,
     "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>15,500.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></del> <span class=\"screen-reader-text\">Original price was: 15,500.00&#2547;&nbsp;.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>14,200.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></ins><span class=\"screen-reader-text\">Current price is: 14,200.00&#2547;&nbsp;.</span>",
     "related_ids": [
+      7689,
       7652,
-      7650
+      7650,
+      7687,
+      7688
     ],
     "meta_data": [
       {
@@ -726,7 +1194,7 @@
         "value": "default"
       },
       {
-        "id": 4372,
+        "id": 4476,
         "key": "astra-migrate-meta-layouts",
         "value": "set"
       }
@@ -847,8 +1315,11 @@
     "menu_order": 0,
     "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>18,500.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></del> <span class=\"screen-reader-text\">Original price was: 18,500.00&#2547;&nbsp;.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>16,800.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></ins><span class=\"screen-reader-text\">Current price is: 16,800.00&#2547;&nbsp;.</span>",
     "related_ids": [
-      7652,
-      7651
+      7688,
+      7689,
+      7651,
+      7687,
+      7652
     ],
     "meta_data": [
       {
@@ -915,8 +1386,8 @@
     "permalink": "http://ips-hatt-01.local/product/lvtopsun-lvts-256200-25-6v-200ah-5-12kwh-lifepo4-power-wall-battery/",
     "date_created": "2026-09-30T06:39:46",
     "date_created_gmt": "2026-09-30T06:39:46",
-    "date_modified": "2026-09-30T06:57:20",
-    "date_modified_gmt": "2026-09-30T06:57:20",
+    "date_modified": "2026-10-28T04:22:53",
+    "date_modified_gmt": "2026-10-28T04:22:53",
     "type": "simple",
     "status": "publish",
     "featured": false,
@@ -924,9 +1395,9 @@
     "description": "<h3>Key Features</h3>\n<ul>\n<li><strong>Wall-Mounted Power Wall Design:</strong> Sleek space-saving cabinet design ideal for modern residential solar and IPS installations.</li>\n<li><strong>LiFePO4 Chemistry:</strong> Safe, long cycle life, and thermal stability.</li>\n<li><strong>LCD Screen Monitoring:</strong> Displays real-time operational status, voltage, and battery metrics.</li>\n</ul>\n<h3>Technical Specifications</h3>\n<ul>\n<li><strong>Brand:</strong> LVTOPSUN</li>\n<li><strong>Model:</strong> LVTS-256200</li>\n<li><strong>Voltage:</strong> 25.6V</li>\n<li><strong>Capacity:</strong> 200Ah</li>\n<li><strong>Total Energy:</strong> 5.12 kWh</li>\n<li><strong>Battery Type:</strong> LiFePO4 Power Wall</li>\n</ul>\n<h3>Warranty &amp; Delivery</h3>\n<ul>\n<li><strong>Warranty:</strong> 5 Years Official Warranty</li>\n<li><strong>Delivery inside Dhaka:</strong> Delivered within 1-2 business days.</li>\n<li><strong>Delivery outside Dhaka:</strong> Delivered within 2-3 business days.</li>\n</ul>\n",
     "short_description": "<p>Wall-mounted 25.6V 200Ah LiFePO4 Lithium Power Wall battery with LCD monitor for compact and efficient home energy backup.</p>\n",
     "sku": "LVTOPSUN-LVTS-256200",
-    "price": "150000",
-    "regular_price": "160000",
-    "sale_price": "150000",
+    "price": "105000",
+    "regular_price": "110000",
+    "sale_price": "105000",
     "date_on_sale_from": null,
     "date_on_sale_from_gmt": null,
     "date_on_sale_to": null,
@@ -996,10 +1467,10 @@
     "variations": [],
     "grouped_products": [],
     "menu_order": 0,
-    "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>160,000.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></del> <span class=\"screen-reader-text\">Original price was: 160,000.00&#2547;&nbsp;.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>150,000.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></ins><span class=\"screen-reader-text\">Current price is: 150,000.00&#2547;&nbsp;.</span>",
+    "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>110,000.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></del> <span class=\"screen-reader-text\">Original price was: 110,000.00&#2547;&nbsp;.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>105,000.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></ins><span class=\"screen-reader-text\">Current price is: 105,000.00&#2547;&nbsp;.</span>",
     "related_ids": [
-      7645,
       7646,
+      7645,
       7644
     ],
     "meta_data": [
@@ -1029,7 +1500,7 @@
         "value": "default"
       },
       {
-        "id": 4346,
+        "id": 4478,
         "key": "astra-migrate-meta-layouts",
         "value": "set"
       }
@@ -1150,9 +1621,9 @@
     "menu_order": 0,
     "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>15,625.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></del> <span class=\"screen-reader-text\">Original price was: 15,625.00&#2547;&nbsp;.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>14,375.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></ins><span class=\"screen-reader-text\">Current price is: 14,375.00&#2547;&nbsp;.</span>",
     "related_ids": [
+      7677,
       7678,
-      7654,
-      7677
+      7654
     ],
     "meta_data": [
       {
@@ -1450,9 +1921,9 @@
     "menu_order": 0,
     "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>480,000.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></del> <span class=\"screen-reader-text\">Original price was: 480,000.00&#2547;&nbsp;.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>450,000.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></ins><span class=\"screen-reader-text\">Current price is: 450,000.00&#2547;&nbsp;.</span>",
     "related_ids": [
-      7645,
+      7649,
       7644,
-      7649
+      7645
     ],
     "meta_data": [
       {
@@ -1519,8 +1990,8 @@
     "permalink": "http://ips-hatt-01.local/product/genixgreen-51-2v-100ah-lifepo4-lithium-battery-system/",
     "date_created": "2026-09-30T06:39:46",
     "date_created_gmt": "2026-09-30T06:39:46",
-    "date_modified": "2026-09-30T06:54:08",
-    "date_modified_gmt": "2026-09-30T06:54:08",
+    "date_modified": "2026-10-28T04:15:09",
+    "date_modified_gmt": "2026-10-28T04:15:09",
     "type": "simple",
     "status": "publish",
     "featured": true,
@@ -1528,9 +1999,9 @@
     "description": "<h3>Key Features</h3>\n<ul>\n<li><strong>High Efficiency &amp; Long Backup:</strong> Maximizes stored energy utilization with minimal power loss.</li>\n<li><strong>Smart BMS Protection:</strong> Built-in Battery Management System guarding against overcharge, deep discharge, short circuit, and temperature fluctuations.</li>\n<li><strong>Extended Cycle Life:</strong> Engineered for over 6000+ deep discharge cycles.</li>\n<li><strong>Eco-Friendly &amp; Safe:</strong> Non-toxic, clean energy solution for a greener tomorrow.</li>\n</ul>\n<h3>Technical Specifications</h3>\n<ul>\n<li><strong>Brand:</strong> GENIXGREEN</li>\n<li><strong>Nominal Voltage:</strong> 51.2V</li>\n<li><strong>Capacity:</strong> 100Ah</li>\n<li><strong>Battery Chemistry:</strong> LiFePO4 (Lithium Iron Phosphate)</li>\n<li><strong>Total Energy:</strong> 5.12 kWh</li>\n<li><strong>Display / Ports:</strong> Digital LCD Status Display, USB / RS485 / CAN communication ports</li>\n<li><strong>Protection:</strong> DELIXI Circuit Breaker / ON-OFF Switch integrated</li>\n</ul>\n<h3>Warranty &amp; Delivery</h3>\n<ul>\n<li><strong>Warranty:</strong> 5-Year Replacement Warranty</li>\n<li><strong>Delivery inside Dhaka:</strong> Delivered within 1-2 business days.</li>\n<li><strong>Delivery outside Dhaka:</strong> Delivered within 2-3 business days.</li>\n</ul>\n",
     "short_description": "<p>High-efficiency 51.2V 100Ah Lithium Iron Phosphate battery system with integrated Smart BMS protection and long cycle life for home and solar setups.</p>\n",
     "sku": "GENIXGREEN-51.2V-100AH",
-    "price": "155000",
-    "regular_price": "165000",
-    "sale_price": "155000",
+    "price": "95000",
+    "regular_price": "1001000",
+    "sale_price": "95000",
     "date_on_sale_from": null,
     "date_on_sale_from_gmt": null,
     "date_on_sale_to": null,
@@ -1600,11 +2071,11 @@
     "variations": [],
     "grouped_products": [],
     "menu_order": 0,
-    "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>165,000.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></del> <span class=\"screen-reader-text\">Original price was: 165,000.00&#2547;&nbsp;.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>155,000.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></ins><span class=\"screen-reader-text\">Current price is: 155,000.00&#2547;&nbsp;.</span>",
+    "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>1,001,000.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></del> <span class=\"screen-reader-text\">Original price was: 1,001,000.00&#2547;&nbsp;.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>95,000.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></ins><span class=\"screen-reader-text\">Current price is: 95,000.00&#2547;&nbsp;.</span>",
     "related_ids": [
-      7644,
       7649,
-      7646
+      7646,
+      7644
     ],
     "meta_data": [
       {
@@ -1633,7 +2104,7 @@
         "value": "default"
       },
       {
-        "id": 4297,
+        "id": 4477,
         "key": "astra-migrate-meta-layouts",
         "value": "set"
       }
@@ -1666,23 +2137,23 @@
   },
   {
     "id": 7644,
-    "name": "GROWATT HOPE 5.0L-B1 High-Performance Lithium Battery",
+    "name": "AKAIYAI 51.2 volt 200 Ah",
     "slug": "growatt-hope-5-0l-b1-high-performance-lithium-battery",
     "permalink": "http://ips-hatt-01.local/product/growatt-hope-5-0l-b1-high-performance-lithium-battery/",
     "date_created": "2026-09-30T06:39:45",
     "date_created_gmt": "2026-09-30T06:39:45",
-    "date_modified": "2026-09-30T07:01:37",
-    "date_modified_gmt": "2026-09-30T07:01:37",
+    "date_modified": "2026-10-28T04:10:59",
+    "date_modified_gmt": "2026-10-28T04:10:59",
     "type": "simple",
     "status": "publish",
     "featured": false,
     "catalog_visibility": "visible",
-    "description": "<h3>Key Features</h3>\n<ul>\n<li><strong>Seamless Solar Integration:</strong> Effortlessly syncs with modern residential and commercial solar inverters.</li>\n<li><strong>Reliable Backup Power:</strong> Ensures uninterruptible power supply during grid outages.</li>\n<li><strong>Long-Lasting Performance:</strong> Premium grade LiFePO4 chemistry designed for high charge/discharge cycles.</li>\n<li><strong>Eco-Friendly Solution:</strong> Safe, sustainable energy storage technology.</li>\n</ul>\n<h3>Technical Specifications</h3>\n<ul>\n<li><strong>Brand:</strong> Growatt</li>\n<li><strong>Model:</strong> HOPE 5.0L-B1</li>\n<li><strong>Battery Type:</strong> High-Performance Lithium Battery (LiFePO4)</li>\n<li><strong>Nominal Capacity:</strong> 5.0 kWh</li>\n<li><strong>Application:</strong> Residential &amp; Commercial Energy Storage / Solar Backup</li>\n</ul>\n<h3>Warranty &amp; Delivery</h3>\n<ul>\n<li><strong>Warranty:</strong> 5-Year Standard Manufacturer Warranty</li>\n<li><strong>Delivery inside Dhaka:</strong> Delivered within 1-2 business days.</li>\n<li><strong>Delivery outside Dhaka:</strong> Delivered within 2-3 business days.</li>\n</ul>\n",
+    "description": "<h3>Key Features</h3>\n<ul>\n<li><strong>Seamless Solar Integration:</strong> Effortlessly syncs with modern residential and commercial solar inverters.</li>\n<li><strong>Reliable Backup Power:</strong> Ensures uninterruptible power supply during grid outages.</li>\n<li><strong>Long-Lasting Performance:</strong> Premium grade LiFePO4 chemistry designed for high charge/discharge cycles.</li>\n<li><strong>Eco-Friendly Solution:</strong> Safe, sustainable energy storage technology.</li>\n</ul>\n<h3>Technical Specifications</h3>\n<ul>\n<li><strong>Brand:</strong> AKAIYAI</li>\n<li><strong>Model:</strong> HOPE 5.0L-B1</li>\n<li><strong>Battery Type:</strong> High-Performance Lithium Battery (LiFePO4)</li>\n<li><strong>Nominal Capacity:</strong> 5.0 kWh</li>\n<li><strong>Application:</strong> Residential &amp; Commercial Energy Storage / Solar Backup</li>\n</ul>\n<h3>Warranty &amp; Delivery</h3>\n<ul>\n<li><strong>Warranty:</strong> 5-Year Standard Manufacturer Warranty</li>\n<li><strong>Delivery inside Dhaka:</strong> Delivered within 1-2 business days.</li>\n<li><strong>Delivery outside Dhaka:</strong> Delivered within 2-3 business days.</li>\n</ul>\n",
     "short_description": "<p>Intelligent energy storage solution designed for reliable backup power, seamless solar integration, and long-lasting eco-friendly performance.</p>\n",
     "sku": "GROWATT-HOPE-50L-B1",
-    "price": "175000",
-    "regular_price": "185000",
-    "sale_price": "175000",
+    "price": "198000",
+    "regular_price": "2000000",
+    "sale_price": "198000",
     "date_on_sale_from": null,
     "date_on_sale_from_gmt": null,
     "date_on_sale_to": null,
@@ -1734,17 +2205,17 @@
     "tags": [],
     "images": [
       {
-        "id": 7666,
-        "date_created": "2026-09-30T07:01:25",
-        "date_created_gmt": "2026-09-30T07:01:25",
-        "date_modified": "2026-09-30T07:01:25",
-        "date_modified_gmt": "2026-09-30T07:01:25",
-        "src": "/products/7644-0.jpg",
-        "name": "growatt-hope-16.0lm-a1",
+        "id": 7683,
+        "date_created": "2026-10-28T04:10:33",
+        "date_created_gmt": "2026-10-28T04:10:33",
+        "date_modified": "2026-10-28T04:10:33",
+        "date_modified_gmt": "2026-10-28T04:10:33",
+        "src": "/products/7644-0.png",
+        "name": "akaiyai-51-2v-200ah",
         "alt": "",
-        "srcset": "http://ips-hatt-01.local/wp-content/uploads/2026/09/growatt-hope-16.0lm-a1.jpg 800w, http://ips-hatt-01.local/wp-content/uploads/2026/09/growatt-hope-16.0lm-a1-300x300.jpg 300w, http://ips-hatt-01.local/wp-content/uploads/2026/09/growatt-hope-16.0lm-a1-150x150.jpg 150w, http://ips-hatt-01.local/wp-content/uploads/2026/09/growatt-hope-16.0lm-a1-768x768.jpg 768w, http://ips-hatt-01.local/wp-content/uploads/2026/09/growatt-hope-16.0lm-a1-600x600.jpg 600w, http://ips-hatt-01.local/wp-content/uploads/2026/09/growatt-hope-16.0lm-a1-100x100.jpg 100w",
+        "srcset": "http://ips-hatt-01.local/wp-content/uploads/2026/09/akaiyai-51-2v-200ah.png 800w, http://ips-hatt-01.local/wp-content/uploads/2026/09/akaiyai-51-2v-200ah-300x300.png 300w, http://ips-hatt-01.local/wp-content/uploads/2026/09/akaiyai-51-2v-200ah-150x150.png 150w, http://ips-hatt-01.local/wp-content/uploads/2026/09/akaiyai-51-2v-200ah-768x768.png 768w, http://ips-hatt-01.local/wp-content/uploads/2026/09/akaiyai-51-2v-200ah-600x600.png 600w, http://ips-hatt-01.local/wp-content/uploads/2026/09/akaiyai-51-2v-200ah-100x100.png 100w",
         "sizes": "(max-width: 800px) 100vw, 800px",
-        "thumbnail": "http://ips-hatt-01.local/wp-content/uploads/2026/09/growatt-hope-16.0lm-a1-300x300.jpg"
+        "thumbnail": "http://ips-hatt-01.local/wp-content/uploads/2026/09/akaiyai-51-2v-200ah-300x300.png"
       }
     ],
     "attributes": [],
@@ -1752,11 +2223,11 @@
     "variations": [],
     "grouped_products": [],
     "menu_order": 0,
-    "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>185,000.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></del> <span class=\"screen-reader-text\">Original price was: 185,000.00&#2547;&nbsp;.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>175,000.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></ins><span class=\"screen-reader-text\">Current price is: 175,000.00&#2547;&nbsp;.</span>",
+    "price_html": "<del aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>2,000,000.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></del> <span class=\"screen-reader-text\">Original price was: 2,000,000.00&#2547;&nbsp;.</span><ins aria-hidden=\"true\"><span class=\"woocommerce-Price-amount amount\"><bdi>198,000.00<span class=\"woocommerce-Price-currencySymbol\" translate=\"no\">&#2547;&nbsp;</span></bdi></span></ins><span class=\"screen-reader-text\">Current price is: 198,000.00&#2547;&nbsp;.</span>",
     "related_ids": [
-      7645,
+      7649,
       7646,
-      7649
+      7645
     ],
     "meta_data": [
       {
@@ -1785,7 +2256,7 @@
         "value": "default"
       },
       {
-        "id": 4401,
+        "id": 4473,
         "key": "astra-migrate-meta-layouts",
         "value": "set"
       }
